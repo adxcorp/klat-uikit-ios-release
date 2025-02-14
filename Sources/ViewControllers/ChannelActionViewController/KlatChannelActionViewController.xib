@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KlatChannelActionViewController" customModule="KlatUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="addMemberStackView" destination="iVE-Cq-UrL" id="KqY-dd-8Ch"/>
+                <outlet property="changeChannelNameStackView" destination="91q-Lm-xqT" id="D29-II-rYp"/>
+                <outlet property="channelActionStackView" destination="jLS-VC-Rgc" id="o00-if-1Xp"/>
+                <outlet property="channelImageView" destination="I7M-F5-EHU" id="UDb-38-Tyd"/>
+                <outlet property="channelMemberCountLabel" destination="HuQ-hZ-1vC" id="fRb-sW-qLP"/>
+                <outlet property="channelNameLabel" destination="kdm-lJ-s1P" id="Reb-p7-cso"/>
+                <outlet property="deleteChannelStackView" destination="nie-bH-82a" id="Li2-zb-vnc"/>
+                <outlet property="freezeChannelSwitch" destination="vnZ-bf-khg" id="Qw6-Ob-AUC"/>
+                <outlet property="leaveChannelStackView" destination="UKa-h6-FCG" id="hDr-Je-GCV"/>
+                <outlet property="memberListStackView" destination="oje-Dr-B2E" id="nmd-td-hlh"/>
+                <outlet property="pushSettingSwitch" destination="CxF-EM-FZq" id="dcO-hg-hsZ"/>
+                <outlet property="restrictedListStackView" destination="fEe-5H-sOz" id="xGI-zH-ynR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0D-Tt-0ji">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xhb-8x-atc" userLabel="ContentView">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I7M-F5-EHU" userLabel="ChannelImageView">
+                                    <rect key="frame" x="146.66666666666666" y="0.0" width="100" height="100"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="100" id="cmt-nC-WnA"/>
+                                        <constraint firstAttribute="width" constant="100" id="jzZ-vc-v3s"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="채널 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdm-lJ-s1P" userLabel="ChannelNameLabel">
+                                    <rect key="frame" x="163" y="114" width="67" height="21.666666666666657"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N명 참여중" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuQ-hZ-1vC" userLabel="MemberCountLabel">
+                                    <rect key="frame" x="165.33333333333334" y="139.66666666666666" width="62.666666666666657" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jLS-VC-Rgc" userLabel="ChannelActionStackView">
+                                    <rect key="frame" x="24" y="176.66666666666663" width="345" height="490"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="c8J-Kz-aec" userLabel="ChangeChannelNameStackView">
+                                            <rect key="frame" x="0.0" y="0.0" width="345" height="61"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocm-gF-41T" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="bpc-cn-nBV"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="91q-Lm-xqT" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="채널 정보 변경" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEo-00-Xl1" userLabel="ChangeChannelNameLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="329" height="60"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="KlatRightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="fjy-gD-u5Q">
+                                                            <rect key="frame" x="329" y="0.0" width="16" height="60"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="iIm-5L-ylR"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" tag="200" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iD3-un-cNR" userLabel="MemberListStackView">
+                                            <rect key="frame" x="0.0" y="61.000000000000028" width="345" height="61"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDT-hJ-mbT" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="K71-YW-6cw"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oje-Dr-B2E" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="참여자 목록" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1g-8H-szL" userLabel="MemberListLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="329" height="60"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="KlatRightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="GeB-jm-5xd">
+                                                            <rect key="frame" x="329" y="0.0" width="16" height="60"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="QHa-GB-sHZ"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" tag="200" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JG1-E5-l2i" userLabel="RestrictedListStackView">
+                                            <rect key="frame" x="0.0" y="122.00000000000003" width="345" height="61"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctp-tg-wdV" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="gwd-10-deA"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEe-5H-sOz" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="음소거 목록" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-zd-ZGU" userLabel="RestrictedListLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="329" height="60"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="KlatRightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="UjC-wW-XUm">
+                                                            <rect key="frame" x="329" y="0.0" width="16" height="60"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="HFL-jo-a5M"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tmE-1t-cnX" userLabel="FreezeChannelStackView">
+                                            <rect key="frame" x="0.0" y="183.00000000000003" width="345" height="61"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qg-qd-tkU" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="Z6k-pc-tir"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-xd-xvj" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="nNn-ak-kqs">
+                                                            <rect key="frame" x="0.0" y="10.333333333333314" width="296" height="39.333333333333336"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="채널 얼리기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iV2-9H-VN2" userLabel="FreezeChannelLabel">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="296" height="19.333333333333332"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="채널 소유자만 메시지 전송이 가능합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obf-6d-Ial" userLabel="Description">
+                                                                    <rect key="frame" x="0.0" y="22.333333333333314" width="296" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-bf-khg">
+                                                            <rect key="frame" x="296" y="14.666666666666629" width="51" height="31"/>
+                                                            <color key="onTintColor" red="0.33725491169999999" green="0.73725497719999999" blue="0.74509805439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </switch>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="fS1-X9-nXv"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" tag="200" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Y9n-eM-Pwe" userLabel="PushSettingStackView">
+                                            <rect key="frame" x="0.0" y="244" width="345" height="61"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xkz-vF-vkw" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="TLY-MA-uYj"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zhI-Hk-cHw" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZMr-f6-HFR">
+                                                            <rect key="frame" x="0.0" y="10.333333333333314" width="296" height="39.333333333333336"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="푸시 알림 설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYR-4B-Us6" userLabel="PushEnableLabel">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="296" height="19.333333333333332"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="이 채널에 대한 푸시 알림을 수신하지 않습니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2G-kD-Gfz" userLabel="Description">
+                                                                    <rect key="frame" x="0.0" y="22.333333333333371" width="296" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CxF-EM-FZq">
+                                                            <rect key="frame" x="296" y="14.666666666666629" width="51" height="31"/>
+                                                            <color key="onTintColor" red="0.33725491169999999" green="0.73725497719999999" blue="0.74509805439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </switch>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="ZRN-fV-82h"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" tag="400" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="117-uD-ibe" userLabel="AddMemberStackView">
+                                            <rect key="frame" x="0.0" y="305" width="345" height="61"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfZ-Yp-FpC" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="YpY-yG-HAy"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVE-Cq-UrL" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="참여자 추가" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eb-sj-Hch" userLabel="AddMemberLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="329" height="60"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="KlatRightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="umf-jU-qzX">
+                                                            <rect key="frame" x="329" y="0.0" width="16" height="60"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="jtu-1R-9Yz"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8be-hT-xxs" userLabel="DeleteChannelStackView">
+                                            <rect key="frame" x="0.0" y="366" width="345" height="62"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66G-ED-Syh" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="a0e-Ze-W2q"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nie-bH-82a" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="채널 삭제" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQS-fe-4Ie" userLabel="DeleteChannelLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="345" height="60"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <color key="textColor" systemColor="systemRedColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="ZOl-SY-gc3"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XJU-Mm-xXF" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="61" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="uMS-yJ-Ap8"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" tag="300" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3cb-1S-CXJ" userLabel="LeaveChannelStackView">
+                                            <rect key="frame" x="0.0" y="428" width="345" height="62"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sms-f0-LdL" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="0.0" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="80C-nq-ECh"/>
+                                                    </constraints>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKa-h6-FCG" userLabel="StackView">
+                                                    <rect key="frame" x="0.0" y="1" width="345" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="채널 나가기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdv-p9-lxN" userLabel="LeaveChannelLabel">
+                                                            <rect key="frame" x="0.0" y="0.0" width="345" height="60"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <color key="textColor" systemColor="systemRedColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="3BG-Kd-wDN"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pHi-Ki-Mbg" userLabel="Separator">
+                                                    <rect key="frame" x="0.0" y="61" width="345" height="1"/>
+                                                    <color key="backgroundColor" red="0.93188983199999997" green="0.93188983199999997" blue="0.93188983199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="xfe-fp-qMi"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="I7M-F5-EHU" firstAttribute="top" secondItem="Xhb-8x-atc" secondAttribute="top" id="40b-RM-hQj"/>
+                                <constraint firstItem="HuQ-hZ-1vC" firstAttribute="top" secondItem="kdm-lJ-s1P" secondAttribute="bottom" constant="4" id="94x-eB-ymC"/>
+                                <constraint firstItem="I7M-F5-EHU" firstAttribute="centerX" secondItem="Xhb-8x-atc" secondAttribute="centerX" id="CLr-gA-tMA"/>
+                                <constraint firstAttribute="trailing" secondItem="jLS-VC-Rgc" secondAttribute="trailing" constant="24" id="CaN-GS-Nyq"/>
+                                <constraint firstItem="HuQ-hZ-1vC" firstAttribute="centerX" secondItem="kdm-lJ-s1P" secondAttribute="centerX" id="EIn-Bf-MqZ"/>
+                                <constraint firstItem="jLS-VC-Rgc" firstAttribute="top" secondItem="HuQ-hZ-1vC" secondAttribute="bottom" constant="20.000000000000028" id="Nbb-Os-wCu"/>
+                                <constraint firstItem="kdm-lJ-s1P" firstAttribute="centerX" secondItem="I7M-F5-EHU" secondAttribute="centerX" id="UCl-Ea-gVb"/>
+                                <constraint firstItem="kdm-lJ-s1P" firstAttribute="top" secondItem="I7M-F5-EHU" secondAttribute="bottom" constant="14" id="bml-f8-dcr"/>
+                                <constraint firstItem="jLS-VC-Rgc" firstAttribute="leading" secondItem="Xhb-8x-atc" secondAttribute="leading" constant="24" id="h89-da-xIf"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Xhb-8x-atc" firstAttribute="width" secondItem="lm7-mk-9XB" secondAttribute="width" id="1yK-2h-yER"/>
+                        <constraint firstItem="Xhb-8x-atc" firstAttribute="trailing" secondItem="dF2-iL-9Pq" secondAttribute="trailing" id="Lzn-dT-eGp"/>
+                        <constraint firstItem="Xhb-8x-atc" firstAttribute="leading" secondItem="dF2-iL-9Pq" secondAttribute="leading" id="RvS-mz-TKK"/>
+                        <constraint firstItem="dF2-iL-9Pq" firstAttribute="top" secondItem="Xhb-8x-atc" secondAttribute="top" id="cns-JM-Mpx"/>
+                        <constraint firstItem="Xhb-8x-atc" firstAttribute="bottom" secondItem="dF2-iL-9Pq" secondAttribute="bottom" id="dgC-Lq-0Jo"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="dF2-iL-9Pq"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="lm7-mk-9XB"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="m0D-Tt-0ji" secondAttribute="trailing" id="TWX-ic-Rg0"/>
+                <constraint firstItem="Xhb-8x-atc" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="ZBl-6C-PUQ"/>
+                <constraint firstItem="m0D-Tt-0ji" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jMH-dv-9wd"/>
+                <constraint firstItem="m0D-Tt-0ji" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="lS6-0C-yZ4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="m0D-Tt-0ji" secondAttribute="bottom" id="oa7-OV-e9f"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="KlatRightArrow" width="16" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

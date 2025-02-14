@@ -1,0 +1,53 @@
+
+import Foundation
+import TalkPlus
+
+open class KlatMemberListViewModel: KlatBaseViewModel {
+    
+    private var channel:TPChannel?
+    
+    var members:[TPMember] = []
+    
+    var channelMemberUpdated:((TPChannel) -> Void)?
+    
+    init(targetChannel: TPChannel?) {
+        super.init()
+        self.channel = targetChannel
+        if let chatChannel = targetChannel {
+            channelMemberUpdate(channel: chatChannel)
+        }
+    }
+    
+    override func klatReactionUpdated(channel:TPChannel, message:TPMessage) {}
+    override func klatMessageReceived(channel: TPChannel, messages: [TPMessage]) {}
+    override func klatMessageDeleted(channel: TPChannel, messages: [TPMessage]) {}
+    override func newKlatChannelAdded(channels: [TPChannel]) {}
+    override func klatChannelRemoved(channel: TPChannel) {}
+    override func klatMoveToPrivateChannel(channel:TPChannel) {}
+    override func klatMemberUnbanned(channel:TPChannel, members:[TPMember]) {}
+    
+    override func klatMemberLeft(channel: TPChannel, members: [TPMember]) {
+        channelMemberUpdate(channel: channel)
+    }
+    override func klatMemberAdded(channel: TPChannel, members: [TPMember]) {
+        channelMemberUpdate(channel: channel)
+    }
+    override func klatMemberBanned(channel:TPChannel, members:[TPMember]) {
+        channelMemberUpdate(channel: channel)
+    }
+    
+    override func klatChannelChanged(channel: TPChannel) {
+        channelMemberUpdate(channel: channel)
+    }
+    private func channelMemberUpdate(channel: TPChannel) {
+        guard let chatChannel = self.channel else { return }
+        guard chatChannel.getId() == channel.getId() else { return }
+        guard let members = channel.getMembers() as? [TPMember] else { return }
+        self.members = members
+        self.channel = channel
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            channelMemberUpdated?(channel)
+        }
+    }
+}

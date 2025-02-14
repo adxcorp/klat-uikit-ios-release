@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KlatChatMessageViewController" customModule="KlatUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="albumButton" destination="7a1-tb-yJu" id="Tkt-d6-XH2"/>
+                <outlet property="albumLabel" destination="HlB-MN-Wyh" id="MYr-bh-a65"/>
+                <outlet property="cameraButton" destination="y0u-yS-4PD" id="bxz-F2-zSx"/>
+                <outlet property="cameraLabel" destination="HdH-d6-jJ6" id="UX9-Ls-mtx"/>
+                <outlet property="channelInfoContainer" destination="svz-dL-gcJ" id="KP7-Z7-Juu"/>
+                <outlet property="channelInfoLowerLabel" destination="cdg-EM-Uu2" id="Bim-jQ-iyW"/>
+                <outlet property="channelInfoStackView" destination="6F2-YW-UMJ" id="R6w-x3-2m2"/>
+                <outlet property="channelInfoStackViewHeight" destination="ZgJ-rT-L3I" id="X2x-XI-adz"/>
+                <outlet property="channelInfoUpperLabel" destination="Dmq-pe-pyj" id="9Pp-mW-PLP"/>
+                <outlet property="messageInputStackView" destination="x3N-Bf-ZeP" id="ElF-zk-ulY"/>
+                <outlet property="messageInputTextView" destination="oIe-hI-vUW" id="CQs-ZC-ePo"/>
+                <outlet property="messageInputTextViewHeight" destination="noZ-SC-58D" id="cUP-Gj-syw"/>
+                <outlet property="sendFileBottomConstraint" destination="7tZ-kw-3km" id="kmh-OW-b5d"/>
+                <outlet property="sendFileButton" destination="p2q-Lo-UTM" id="tF0-cC-Zoy"/>
+                <outlet property="sendFileContainerHeight" destination="Zsa-Pm-JsC" id="ILV-L8-cMw"/>
+                <outlet property="sendFileContainerView" destination="ULn-ae-dbS" id="y4s-2b-3Gg"/>
+                <outlet property="sendTextMessageButton" destination="QXc-d7-mvt" id="vgq-J2-dZv"/>
+                <outlet property="tableView" destination="qEe-N7-Bdd" id="DSS-kg-kG7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qEe-N7-Bdd">
+                    <rect key="frame" x="5" y="59" width="383" height="445"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="x3N-Bf-ZeP" userLabel="ChatMessageInputStackView">
+                    <rect key="frame" x="5" y="606" width="383" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2q-Lo-UTM" userLabel="SendFileButton">
+                            <rect key="frame" x="8" y="64" width="36" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="36" id="Lf1-Ab-Nf2"/>
+                                <constraint firstAttribute="height" constant="36" id="ZxV-Gv-iqO"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="KlatPlus"/>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oIe-hI-vUW" userLabel="MessageInputTextView">
+                            <rect key="frame" x="52" y="0.0" width="267" height="100"/>
+                            <color key="backgroundColor" systemColor="systemGray2Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="noZ-SC-58D"/>
+                            </constraints>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXc-d7-mvt" userLabel="SendMessageButton">
+                            <rect key="frame" x="327" y="64" width="48" height="36"/>
+                            <color key="backgroundColor" red="0.64778645830000003" green="0.64778645830000003" blue="0.64778645830000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="BK1-dX-7Wx"/>
+                                <constraint firstAttribute="height" constant="36" id="cZL-m1-Eex"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="KlatSendMesage"/>
+                        </button>
+                    </subviews>
+                    <edgeInsets key="layoutMargins" top="0.0" left="8" bottom="0.0" right="8"/>
+                </stackView>
+                <view contentMode="scaleToFill" verticalCompressionResistancePriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="ULn-ae-dbS" userLabel="SendFileContainerView">
+                    <rect key="frame" x="0.0" y="708" width="393" height="144"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rah-Jb-zCl">
+                            <rect key="frame" x="24" y="24" width="345" height="87"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hYS-Fe-pkE" userLabel="CameraStackView">
+                                    <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="87"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0u-yS-4PD" userLabel="CameraButton">
+                                            <rect key="frame" x="54.333333333333329" y="0.0" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="64" id="IBb-St-zJ1"/>
+                                                <constraint firstAttribute="width" constant="64" id="Jvl-cp-Tmf"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="KlatCamera"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카메라" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdH-d6-jJ6">
+                                            <rect key="frame" x="66.666666666666671" y="69" width="39" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="azl-m8-DTr" userLabel="AlbumStackView">
+                                    <rect key="frame" x="172.66666666666663" y="0.0" width="172.33333333333337" height="87"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a1-tb-yJu" userLabel="AlbumButton">
+                                            <rect key="frame" x="54" y="0.0" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="64" id="ouq-r7-SZV"/>
+                                                <constraint firstAttribute="width" constant="64" id="xws-TD-EDk"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="KlatPicture"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="앨범" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlB-MN-Wyh">
+                                            <rect key="frame" x="73.000000000000028" y="69" width="26" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="rah-Jb-zCl" firstAttribute="top" secondItem="ULn-ae-dbS" secondAttribute="top" constant="24" id="5sv-7a-5Nk"/>
+                        <constraint firstItem="rah-Jb-zCl" firstAttribute="leading" secondItem="ULn-ae-dbS" secondAttribute="leading" constant="24" id="Dvi-hq-3AA"/>
+                        <constraint firstAttribute="height" constant="144" id="Zsa-Pm-JsC" customClass="KlatObservableNSLayoutConstraint" customModule="KlatUIKit" customModuleProvider="target"/>
+                        <constraint firstAttribute="trailing" secondItem="rah-Jb-zCl" secondAttribute="trailing" constant="24" id="xaB-uM-dZ8"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6F2-YW-UMJ" userLabel="ChannelInfoStackView">
+                    <rect key="frame" x="0.0" y="504" width="393" height="102"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svz-dL-gcJ" userLabel="ChannelInfoVIewContainer">
+                            <rect key="frame" x="16" y="16" width="361" height="70"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="운영자가 채널을 얼렸습니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dmq-pe-pyj" userLabel="upper label">
+                                    <rect key="frame" x="0.0" y="15" width="361" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="운영자를 제외한 사용자는 메시지를 입력할 수 없습니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdg-EM-Uu2" userLabel="lower label">
+                                    <rect key="frame" x="0.0" y="37" width="361" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemMintColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Dmq-pe-pyj" secondAttribute="trailing" id="AoJ-WE-bEG"/>
+                                <constraint firstItem="Dmq-pe-pyj" firstAttribute="top" secondItem="svz-dL-gcJ" secondAttribute="top" constant="15" id="BDc-DI-Lld"/>
+                                <constraint firstItem="cdg-EM-Uu2" firstAttribute="top" secondItem="Dmq-pe-pyj" secondAttribute="bottom" constant="4" id="dDZ-NG-tGK"/>
+                                <constraint firstItem="Dmq-pe-pyj" firstAttribute="leading" secondItem="svz-dL-gcJ" secondAttribute="leading" id="g30-5Z-NgE"/>
+                                <constraint firstItem="cdg-EM-Uu2" firstAttribute="leading" secondItem="svz-dL-gcJ" secondAttribute="leading" id="pgU-hJ-3fr"/>
+                                <constraint firstAttribute="trailing" secondItem="cdg-EM-Uu2" secondAttribute="trailing" id="qAg-bt-pHS"/>
+                                <constraint firstItem="cdg-EM-Uu2" firstAttribute="top" secondItem="Dmq-pe-pyj" secondAttribute="bottom" constant="4" id="zjc-Ly-2lE"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="svz-dL-gcJ" firstAttribute="centerX" secondItem="6F2-YW-UMJ" secondAttribute="centerX" id="ELN-uu-RBO"/>
+                        <constraint firstItem="svz-dL-gcJ" firstAttribute="centerY" secondItem="6F2-YW-UMJ" secondAttribute="centerY" id="U7P-5A-zcO"/>
+                        <constraint firstAttribute="height" constant="102" id="ZgJ-rT-L3I" customClass="KlatObservableNSLayoutConstraint" customModule="KlatUIKit" customModuleProvider="target"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="16" left="16" bottom="16" right="16"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ULn-ae-dbS" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="7tZ-kw-3km"/>
+                <constraint firstItem="x3N-Bf-ZeP" firstAttribute="top" secondItem="6F2-YW-UMJ" secondAttribute="bottom" id="FiJ-bm-ujh"/>
+                <constraint firstItem="6F2-YW-UMJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="IB7-rC-D5N"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6F2-YW-UMJ" secondAttribute="trailing" id="Pn1-Dm-qzj"/>
+                <constraint firstItem="ULn-ae-dbS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QZ4-Ea-29j"/>
+                <constraint firstItem="qEe-N7-Bdd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="X0r-1V-hZD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qEe-N7-Bdd" secondAttribute="trailing" constant="5" id="f7x-BK-NF1"/>
+                <constraint firstAttribute="trailing" secondItem="ULn-ae-dbS" secondAttribute="trailing" id="fie-5T-ysD"/>
+                <constraint firstItem="6F2-YW-UMJ" firstAttribute="top" secondItem="qEe-N7-Bdd" secondAttribute="bottom" id="p2v-eB-IXE"/>
+                <constraint firstItem="qEe-N7-Bdd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uu7-gy-WSg"/>
+                <constraint firstItem="ULn-ae-dbS" firstAttribute="top" secondItem="x3N-Bf-ZeP" secondAttribute="bottom" constant="2" id="vGm-9e-zqe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="x3N-Bf-ZeP" secondAttribute="trailing" constant="5" id="wVq-ah-Dkh"/>
+                <constraint firstItem="x3N-Bf-ZeP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="xcI-sH-CUl"/>
+            </constraints>
+            <point key="canvasLocation" x="104.58015267175573" y="67.605633802816911"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="KlatCamera" width="64.333335876464844" height="64"/>
+        <image name="KlatPicture" width="64.333335876464844" height="64"/>
+        <image name="KlatPlus" width="24" height="24"/>
+        <image name="KlatSendMesage" width="24" height="24"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

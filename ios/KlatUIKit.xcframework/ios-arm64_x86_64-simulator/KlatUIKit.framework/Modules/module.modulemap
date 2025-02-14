@@ -1,0 +1,11 @@
+framework module KlatUIKit {
+  umbrella header "KlatUIKit.h"
+  export *
+
+  module * { export * }
+}
+
+module KlatUIKit.Swift {
+  header "KlatUIKit-Swift.h"
+  requires objc
+}

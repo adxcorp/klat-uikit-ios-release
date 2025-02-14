@@ -1,0 +1,1305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5E9B3D2D5DDA2300E7AD14 /* spm-talkplus-framework in Frameworks */ = {isa = PBXBuildFile; productRef = DF5E9B3C2D5DDA2300E7AD14 /* spm-talkplus-framework */; };
+		DFB2E5E22CFD73D700CED074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2E5E12CFD73D700CED074 /* AppDelegate.swift */; };
+		DFB2E5E42CFD73D700CED074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2E5E32CFD73D700CED074 /* SceneDelegate.swift */; };
+		DFB2E5E62CFD73D700CED074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2E5E52CFD73D700CED074 /* ViewController.swift */; };
+		DFB2E5E92CFD73D700CED074 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DFB2E5E82CFD73D700CED074 /* Base */; };
+		DFB2E5EB2CFD73D900CED074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB2E5EA2CFD73D900CED074 /* Assets.xcassets */; };
+		DFB2E5EE2CFD73D900CED074 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DFB2E5ED2CFD73D900CED074 /* Base */; };
+		DFD454882D06857400B92577 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD454862D06857400B92577 /* SignInViewController.swift */; };
+		DFD454892D06857400B92577 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD454872D06857400B92577 /* SignInViewController.xib */; };
+		DFF8EF522D59C44000F36318 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE8D2D59C44000F36318 /* Date+Extension.swift */; };
+		DFF8EF532D59C44000F36318 /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE8E2D59C44000F36318 /* TableView+Extension.swift */; };
+		DFF8EF542D59C44000F36318 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE8F2D59C44000F36318 /* UIColor+Extension.swift */; };
+		DFF8EF552D59C44000F36318 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE902D59C44000F36318 /* UIImage+Extension.swift */; };
+		DFF8EF562D59C44000F36318 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE912D59C44000F36318 /* UITableViewCell+Extension.swift */; };
+		DFF8EF572D59C44000F36318 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE922D59C44000F36318 /* UIView+Extension.swift */; };
+		DFF8EF582D59C44000F36318 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EE932D59C44000F36318 /* UIViewController+Extension.swift */; };
+		DFF8EF592D59C44000F36318 /* KlatAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE952D59C44000F36318 /* KlatAdd.png */; };
+		DFF8EF5A2D59C44000F36318 /* KlatAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE962D59C44000F36318 /* KlatAdd@2x.png */; };
+		DFF8EF5B2D59C44000F36318 /* KlatAdd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE972D59C44000F36318 /* KlatAdd@3x.png */; };
+		DFF8EF5C2D59C44000F36318 /* KlatAddChannel.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE982D59C44000F36318 /* KlatAddChannel.png */; };
+		DFF8EF5D2D59C44000F36318 /* KlatAddChannel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE992D59C44000F36318 /* KlatAddChannel@2x.png */; };
+		DFF8EF5E2D59C44000F36318 /* KlatAddChannel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE9A2D59C44000F36318 /* KlatAddChannel@3x.png */; };
+		DFF8EF5F2D59C44000F36318 /* KlatAddImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE9B2D59C44000F36318 /* KlatAddImage.png */; };
+		DFF8EF602D59C44000F36318 /* KlatAddImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE9C2D59C44000F36318 /* KlatAddImage@2x.png */; };
+		DFF8EF612D59C44000F36318 /* KlatAddImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE9D2D59C44000F36318 /* KlatAddImage@3x.png */; };
+		DFF8EF622D59C44000F36318 /* KlatAllChannels.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE9E2D59C44000F36318 /* KlatAllChannels.png */; };
+		DFF8EF632D59C44000F36318 /* KlatAllChannels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EE9F2D59C44000F36318 /* KlatAllChannels@2x.png */; };
+		DFF8EF642D59C44000F36318 /* KlatAllChannels@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA02D59C44000F36318 /* KlatAllChannels@3x.png */; };
+		DFF8EF652D59C44000F36318 /* KlatBack.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA12D59C44000F36318 /* KlatBack.png */; };
+		DFF8EF662D59C44000F36318 /* KlatBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA22D59C44000F36318 /* KlatBack@2x.png */; };
+		DFF8EF672D59C44000F36318 /* KlatBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA32D59C44000F36318 /* KlatBack@3x.png */; };
+		DFF8EF682D59C44000F36318 /* KlatBackWithWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA42D59C44000F36318 /* KlatBackWithWhite.png */; };
+		DFF8EF692D59C44000F36318 /* KlatBackWithWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA52D59C44000F36318 /* KlatBackWithWhite@2x.png */; };
+		DFF8EF6A2D59C44000F36318 /* KlatBackWithWhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA62D59C44000F36318 /* KlatBackWithWhite@3x.png */; };
+		DFF8EF6B2D59C44000F36318 /* KlatBanned.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA72D59C44000F36318 /* KlatBanned.png */; };
+		DFF8EF6C2D59C44000F36318 /* KlatBanned@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA82D59C44000F36318 /* KlatBanned@2x.png */; };
+		DFF8EF6D2D59C44000F36318 /* KlatBanned@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEA92D59C44000F36318 /* KlatBanned@3x.png */; };
+		DFF8EF6E2D59C44000F36318 /* KlatCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEAA2D59C44000F36318 /* KlatCamera.png */; };
+		DFF8EF6F2D59C44000F36318 /* KlatCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEAB2D59C44000F36318 /* KlatCamera@2x.png */; };
+		DFF8EF702D59C44000F36318 /* KlatCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEAC2D59C44000F36318 /* KlatCamera@3x.png */; };
+		DFF8EF712D59C44000F36318 /* KlatCameraWithAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEAD2D59C44000F36318 /* KlatCameraWithAdd.png */; };
+		DFF8EF722D59C44000F36318 /* KlatCameraWithAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEAE2D59C44000F36318 /* KlatCameraWithAdd@2x.png */; };
+		DFF8EF732D59C44000F36318 /* KlatCameraWithAdd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEAF2D59C44000F36318 /* KlatCameraWithAdd@3x.png */; };
+		DFF8EF742D59C44000F36318 /* KlatChannelInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB02D59C44000F36318 /* KlatChannelInfo.png */; };
+		DFF8EF752D59C44000F36318 /* KlatChannelInfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB12D59C44000F36318 /* KlatChannelInfo@2x.png */; };
+		DFF8EF762D59C44000F36318 /* KlatChannelInfo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB22D59C44000F36318 /* KlatChannelInfo@3x.png */; };
+		DFF8EF772D59C44000F36318 /* KlatCopy.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB32D59C44000F36318 /* KlatCopy.png */; };
+		DFF8EF782D59C44000F36318 /* KlatCopy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB42D59C44000F36318 /* KlatCopy@2x.png */; };
+		DFF8EF792D59C44000F36318 /* KlatCopy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB52D59C44000F36318 /* KlatCopy@3x.png */; };
+		DFF8EF7A2D59C44000F36318 /* KlatDefaultChannelImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB62D59C44000F36318 /* KlatDefaultChannelImage.png */; };
+		DFF8EF7B2D59C44000F36318 /* KlatDefaultChannelImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB72D59C44000F36318 /* KlatDefaultChannelImage@2x.png */; };
+		DFF8EF7C2D59C44000F36318 /* KlatDefaultChannelImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB82D59C44000F36318 /* KlatDefaultChannelImage@3x.png */; };
+		DFF8EF7D2D59C44000F36318 /* KlatDefaultChannelImageWithCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEB92D59C44000F36318 /* KlatDefaultChannelImageWithCamera.png */; };
+		DFF8EF7E2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEBA2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@2x.png */; };
+		DFF8EF7F2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEBB2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@3x.png */; };
+		DFF8EF802D59C44000F36318 /* KlatDefaultPerson.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEBC2D59C44000F36318 /* KlatDefaultPerson.png */; };
+		DFF8EF812D59C44000F36318 /* KlatDefaultPerson@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEBD2D59C44000F36318 /* KlatDefaultPerson@2x.png */; };
+		DFF8EF822D59C44000F36318 /* KlatDefaultPerson@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEBE2D59C44000F36318 /* KlatDefaultPerson@3x.png */; };
+		DFF8EF832D59C44000F36318 /* KlatDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEBF2D59C44000F36318 /* KlatDelete.png */; };
+		DFF8EF842D59C44000F36318 /* KlatDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC02D59C44000F36318 /* KlatDelete@2x.png */; };
+		DFF8EF852D59C44000F36318 /* KlatDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC12D59C44000F36318 /* KlatDelete@3x.png */; };
+		DFF8EF862D59C44000F36318 /* KlatDownload.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC22D59C44000F36318 /* KlatDownload.png */; };
+		DFF8EF872D59C44000F36318 /* KlatDownload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC32D59C44000F36318 /* KlatDownload@2x.png */; };
+		DFF8EF882D59C44000F36318 /* KlatDownload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC42D59C44000F36318 /* KlatDownload@3x.png */; };
+		DFF8EF892D59C44000F36318 /* KlatError.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC52D59C44000F36318 /* KlatError.png */; };
+		DFF8EF8A2D59C44000F36318 /* KlatError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC62D59C44000F36318 /* KlatError@2x.png */; };
+		DFF8EF8B2D59C44000F36318 /* KlatError@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC72D59C44000F36318 /* KlatError@3x.png */; };
+		DFF8EF8C2D59C44000F36318 /* KlatFile.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC82D59C44000F36318 /* KlatFile.png */; };
+		DFF8EF8D2D59C44000F36318 /* KlatFile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEC92D59C44000F36318 /* KlatFile@2x.png */; };
+		DFF8EF8E2D59C44000F36318 /* KlatFile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EECA2D59C44000F36318 /* KlatFile@3x.png */; };
+		DFF8EF8F2D59C44000F36318 /* KlatMuted.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EECB2D59C44000F36318 /* KlatMuted.png */; };
+		DFF8EF902D59C44000F36318 /* KlatMuted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EECC2D59C44000F36318 /* KlatMuted@2x.png */; };
+		DFF8EF912D59C44000F36318 /* KlatMuted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EECD2D59C44000F36318 /* KlatMuted@3x.png */; };
+		DFF8EF922D59C44000F36318 /* KlatMyChannel.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EECE2D59C44000F36318 /* KlatMyChannel.png */; };
+		DFF8EF932D59C44000F36318 /* KlatMyChannel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EECF2D59C44000F36318 /* KlatMyChannel@2x.png */; };
+		DFF8EF942D59C44000F36318 /* KlatMyChannel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED02D59C44000F36318 /* KlatMyChannel@3x.png */; };
+		DFF8EF952D59C44000F36318 /* KlatNoMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED12D59C44000F36318 /* KlatNoMessage.png */; };
+		DFF8EF962D59C44000F36318 /* KlatNoMessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED22D59C44000F36318 /* KlatNoMessage@2x.png */; };
+		DFF8EF972D59C44000F36318 /* KlatNoMessage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED32D59C44000F36318 /* KlatNoMessage@3x.png */; };
+		DFF8EF982D59C44000F36318 /* KlatNoSearchResult.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED42D59C44000F36318 /* KlatNoSearchResult.png */; };
+		DFF8EF992D59C44000F36318 /* KlatNoSearchResult@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED52D59C44000F36318 /* KlatNoSearchResult@2x.png */; };
+		DFF8EF9A2D59C44000F36318 /* KlatNoSearchResult@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED62D59C44000F36318 /* KlatNoSearchResult@3x.png */; };
+		DFF8EF9B2D59C44000F36318 /* KlatOwner.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED72D59C44000F36318 /* KlatOwner.png */; };
+		DFF8EF9C2D59C44000F36318 /* KlatOwner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED82D59C44000F36318 /* KlatOwner@2x.png */; };
+		DFF8EF9D2D59C44000F36318 /* KlatOwner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EED92D59C44000F36318 /* KlatOwner@3x.png */; };
+		DFF8EF9E2D59C44000F36318 /* KlatPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEDA2D59C44000F36318 /* KlatPicture.png */; };
+		DFF8EF9F2D59C44000F36318 /* KlatPicture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEDB2D59C44000F36318 /* KlatPicture@2x.png */; };
+		DFF8EFA02D59C44000F36318 /* KlatPicture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEDC2D59C44000F36318 /* KlatPicture@3x.png */; };
+		DFF8EFA12D59C44000F36318 /* KlatPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEDD2D59C44000F36318 /* KlatPlus.png */; };
+		DFF8EFA22D59C44000F36318 /* KlatPlus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEDE2D59C44000F36318 /* KlatPlus@2x.png */; };
+		DFF8EFA32D59C44000F36318 /* KlatPlus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEDF2D59C44000F36318 /* KlatPlus@3x.png */; };
+		DFF8EFA42D59C44000F36318 /* KlatPrivateChat.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE02D59C44000F36318 /* KlatPrivateChat.png */; };
+		DFF8EFA52D59C44000F36318 /* KlatPrivateChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE12D59C44000F36318 /* KlatPrivateChat@2x.png */; };
+		DFF8EFA62D59C44000F36318 /* KlatPrivateChat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE22D59C44000F36318 /* KlatPrivateChat@3x.png */; };
+		DFF8EFA72D59C44000F36318 /* KlatPushDisable.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE32D59C44000F36318 /* KlatPushDisable.png */; };
+		DFF8EFA82D59C44000F36318 /* KlatPushDisable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE42D59C44000F36318 /* KlatPushDisable@2x.png */; };
+		DFF8EFA92D59C44000F36318 /* KlatPushDisable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE52D59C44000F36318 /* KlatPushDisable@3x.png */; };
+		DFF8EFAA2D59C44000F36318 /* KlatPushEnable.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE62D59C44000F36318 /* KlatPushEnable.png */; };
+		DFF8EFAB2D59C44000F36318 /* KlatPushEnable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE72D59C44000F36318 /* KlatPushEnable@2x.png */; };
+		DFF8EFAC2D59C44000F36318 /* KlatPushEnable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE82D59C44000F36318 /* KlatPushEnable@3x.png */; };
+		DFF8EFAD2D59C44000F36318 /* KlatRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEE92D59C44000F36318 /* KlatRefresh.png */; };
+		DFF8EFAE2D59C44000F36318 /* KlatRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEEA2D59C44000F36318 /* KlatRefresh@2x.png */; };
+		DFF8EFAF2D59C44000F36318 /* KlatRefresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEEB2D59C44000F36318 /* KlatRefresh@3x.png */; };
+		DFF8EFB02D59C44000F36318 /* KlatRightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEEC2D59C44000F36318 /* KlatRightArrow.png */; };
+		DFF8EFB12D59C44000F36318 /* KlatRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEED2D59C44000F36318 /* KlatRightArrow@2x.png */; };
+		DFF8EFB22D59C44000F36318 /* KlatRightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEEE2D59C44000F36318 /* KlatRightArrow@3x.png */; };
+		DFF8EFB32D59C44000F36318 /* KlatSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEEF2D59C44000F36318 /* KlatSearch.png */; };
+		DFF8EFB42D59C44000F36318 /* KlatSearch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF02D59C44000F36318 /* KlatSearch@2x.png */; };
+		DFF8EFB52D59C44000F36318 /* KlatSearch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF12D59C44000F36318 /* KlatSearch@3x.png */; };
+		DFF8EFB62D59C44000F36318 /* KlatStepperMinus.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF22D59C44000F36318 /* KlatStepperMinus.png */; };
+		DFF8EFB72D59C44000F36318 /* KlatStepperMinus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF32D59C44000F36318 /* KlatStepperMinus@2x.png */; };
+		DFF8EFB82D59C44000F36318 /* KlatStepperMinus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF42D59C44000F36318 /* KlatStepperMinus@3x.png */; };
+		DFF8EFB92D59C44000F36318 /* KlatStepperPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF52D59C44000F36318 /* KlatStepperPlus.png */; };
+		DFF8EFBA2D59C44000F36318 /* KlatStepperPlus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF62D59C44000F36318 /* KlatStepperPlus@2x.png */; };
+		DFF8EFBB2D59C44000F36318 /* KlatStepperPlus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF72D59C44000F36318 /* KlatStepperPlus@3x.png */; };
+		DFF8EFBC2D59C44000F36318 /* KlatUnBanned.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF82D59C44000F36318 /* KlatUnBanned.png */; };
+		DFF8EFBD2D59C44000F36318 /* KlatUnBanned@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEF92D59C44000F36318 /* KlatUnBanned@2x.png */; };
+		DFF8EFBE2D59C44000F36318 /* KlatUnBanned@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEFA2D59C44000F36318 /* KlatUnBanned@3x.png */; };
+		DFF8EFBF2D59C44000F36318 /* KlatUnMuted.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEFB2D59C44000F36318 /* KlatUnMuted.png */; };
+		DFF8EFC02D59C44000F36318 /* KlatUnMuted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEFC2D59C44000F36318 /* KlatUnMuted@2x.png */; };
+		DFF8EFC12D59C44000F36318 /* KlatUnMuted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEFD2D59C44000F36318 /* KlatUnMuted@3x.png */; };
+		DFF8EFC22D59C44000F36318 /* KlatXMark.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEFE2D59C44000F36318 /* KlatXMark.png */; };
+		DFF8EFC32D59C44000F36318 /* KlatXMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EEFF2D59C44000F36318 /* KlatXMark@2x.png */; };
+		DFF8EFC42D59C44000F36318 /* KlatXMark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF002D59C44000F36318 /* KlatXMark@3x.png */; };
+		DFF8EFC52D59C44000F36318 /* KlatXwithCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF012D59C44000F36318 /* KlatXwithCircle.png */; };
+		DFF8EFC62D59C44000F36318 /* KlatXwithCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF022D59C44000F36318 /* KlatXwithCircle@2x.png */; };
+		DFF8EFC72D59C44000F36318 /* KlatXwithCircle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF032D59C44000F36318 /* KlatXwithCircle@3x.png */; };
+		DFF8EFC82D59C44000F36318 /* KlatAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF052D59C44000F36318 /* KlatAssets.xcassets */; };
+		DFF8EFC92D59C44000F36318 /* KlatChatAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF072D59C44000F36318 /* KlatChatAPIs.swift */; };
+		DFF8EFCA2D59C44000F36318 /* KlatChannelActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF0B2D59C44000F36318 /* KlatChannelActionViewController.swift */; };
+		DFF8EFCB2D59C44000F36318 /* KlatChannelActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF0C2D59C44000F36318 /* KlatChannelActionViewController.xib */; };
+		DFF8EFCC2D59C44000F36318 /* KlatChannelActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF0D2D59C44000F36318 /* KlatChannelActionViewModel.swift */; };
+		DFF8EFCD2D59C44000F36318 /* KlatChannelListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF0F2D59C44000F36318 /* KlatChannelListTableViewCell.swift */; };
+		DFF8EFCE2D59C44000F36318 /* KlatChannelListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF102D59C44000F36318 /* KlatChannelListTableViewCell.xib */; };
+		DFF8EFCF2D59C44000F36318 /* KlatChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF122D59C44000F36318 /* KlatChannelListViewController.swift */; };
+		DFF8EFD02D59C44000F36318 /* KlatChannelListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF132D59C44000F36318 /* KlatChannelListViewController.xib */; };
+		DFF8EFD12D59C44000F36318 /* KlatChannelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF142D59C44000F36318 /* KlatChannelListViewModel.swift */; };
+		DFF8EFD22D59C44000F36318 /* KlatChatMessageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF162D59C44000F36318 /* KlatChatMessageProtocol.swift */; };
+		DFF8EFD32D59C44000F36318 /* KlatMyChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF172D59C44000F36318 /* KlatMyChatMessageCell.swift */; };
+		DFF8EFD42D59C44000F36318 /* KlatMyChatMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF182D59C44000F36318 /* KlatMyChatMessageCell.xib */; };
+		DFF8EFD52D59C44000F36318 /* KlatMyChatMessageCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF192D59C44000F36318 /* KlatMyChatMessageCell2.xib */; };
+		DFF8EFD62D59C44000F36318 /* KlatYourChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF1A2D59C44000F36318 /* KlatYourChatMessageCell.swift */; };
+		DFF8EFD72D59C44000F36318 /* KlatYourChatMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF1B2D59C44000F36318 /* KlatYourChatMessageCell.xib */; };
+		DFF8EFD82D59C44000F36318 /* KlatChatMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF1D2D59C44000F36318 /* KlatChatMessageViewController.swift */; };
+		DFF8EFD92D59C44000F36318 /* KlatChatMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF1E2D59C44000F36318 /* KlatChatMessageViewController.xib */; };
+		DFF8EFDA2D59C44000F36318 /* KlatChatMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF1F2D59C44000F36318 /* KlatChatMessageViewModel.swift */; };
+		DFF8EFDB2D59C44000F36318 /* KlatCreateChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF212D59C44000F36318 /* KlatCreateChannelViewController.swift */; };
+		DFF8EFDC2D59C44000F36318 /* KlatCreateChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF222D59C44000F36318 /* KlatCreateChannelViewController.xib */; };
+		DFF8EFDD2D59C44000F36318 /* KlatCreateChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF232D59C44000F36318 /* KlatCreateChannelViewModel.swift */; };
+		DFF8EFDE2D59C44000F36318 /* KlatCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF252D59C44000F36318 /* KlatCustomTextField.swift */; };
+		DFF8EFDF2D59C44000F36318 /* KlatEditChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF272D59C44000F36318 /* KlatEditChannelViewController.swift */; };
+		DFF8EFE02D59C44000F36318 /* KlatEditChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF282D59C44000F36318 /* KlatEditChannelViewController.xib */; };
+		DFF8EFE12D59C44000F36318 /* KlatEditChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF292D59C44000F36318 /* KlatEditChannelViewModel.swift */; };
+		DFF8EFE22D59C44000F36318 /* KlatErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF2B2D59C44000F36318 /* KlatErrorViewController.swift */; };
+		DFF8EFE32D59C44000F36318 /* KlatErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF2C2D59C44000F36318 /* KlatErrorViewController.xib */; };
+		DFF8EFE42D59C44000F36318 /* KlatImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF2E2D59C44000F36318 /* KlatImageViewerViewController.swift */; };
+		DFF8EFE52D59C44000F36318 /* KlatImageViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF2F2D59C44000F36318 /* KlatImageViewerViewController.xib */; };
+		DFF8EFE62D59C44000F36318 /* KlatMemberInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF312D59C44000F36318 /* KlatMemberInfoViewController.swift */; };
+		DFF8EFE72D59C44000F36318 /* KlatMemberInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF322D59C44000F36318 /* KlatMemberInfoViewController.xib */; };
+		DFF8EFE82D59C44000F36318 /* KlatMemberInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF332D59C44000F36318 /* KlatMemberInfoViewModel.swift */; };
+		DFF8EFE92D59C44000F36318 /* KlatMemberListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF352D59C44000F36318 /* KlatMemberListTableViewCell.swift */; };
+		DFF8EFEA2D59C44000F36318 /* KlatMemberListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF362D59C44000F36318 /* KlatMemberListTableViewCell.xib */; };
+		DFF8EFEB2D59C44000F36318 /* KlatMemberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF382D59C44000F36318 /* KlatMemberListViewController.swift */; };
+		DFF8EFEC2D59C44000F36318 /* KlatMemberListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF392D59C44000F36318 /* KlatMemberListViewController.xib */; };
+		DFF8EFED2D59C44000F36318 /* KlatMemberListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF3A2D59C44000F36318 /* KlatMemberListViewModel.swift */; };
+		DFF8EFEE2D59C44000F36318 /* KlatMessageActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF3C2D59C44000F36318 /* KlatMessageActionViewController.swift */; };
+		DFF8EFEF2D59C44000F36318 /* KlatMessageActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF3D2D59C44000F36318 /* KlatMessageActionViewController.xib */; };
+		DFF8EFF02D59C44000F36318 /* KlatMessageActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF3E2D59C44000F36318 /* KlatMessageActionViewModel.swift */; };
+		DFF8EFF12D59C44000F36318 /* KlatRestrictedListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF402D59C44000F36318 /* KlatRestrictedListTableViewCell.swift */; };
+		DFF8EFF22D59C44000F36318 /* KlatRestrictedListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF412D59C44000F36318 /* KlatRestrictedListTableViewCell.xib */; };
+		DFF8EFF32D59C44000F36318 /* KlatRestrictedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF432D59C44000F36318 /* KlatRestrictedListViewController.swift */; };
+		DFF8EFF42D59C44000F36318 /* KlatRestrictedListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF442D59C44000F36318 /* KlatRestrictedListViewController.xib */; };
+		DFF8EFF52D59C44000F36318 /* KlatRestrictedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF452D59C44000F36318 /* KlatRestrictedListViewModel.swift */; };
+		DFF8EFF62D59C44000F36318 /* KlatSearchChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF472D59C44000F36318 /* KlatSearchChannelViewController.swift */; };
+		DFF8EFF72D59C44000F36318 /* KlatSearchChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF8EF482D59C44000F36318 /* KlatSearchChannelViewController.xib */; };
+		DFF8EFF82D59C44000F36318 /* KlatSearchChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF492D59C44000F36318 /* KlatSearchChannelViewModel.swift */; };
+		DFF8EFF92D59C44000F36318 /* KlatBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF4B2D59C44000F36318 /* KlatBaseViewController.swift */; };
+		DFF8EFFA2D59C44000F36318 /* KlatBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF4C2D59C44000F36318 /* KlatBaseViewModel.swift */; };
+		DFF8EFFB2D59C44000F36318 /* KlatError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF4D2D59C44000F36318 /* KlatError.swift */; };
+		DFF8EFFC2D59C44000F36318 /* KlatUIKitSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8EF4F2D59C44000F36318 /* KlatUIKitSDK.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271AEC052D31080600007055 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		271AEC062D31080600007055 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DFB2E5DE2CFD73D700CED074 /* KlatUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlatUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2E5E12CFD73D700CED074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB2E5E32CFD73D700CED074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFB2E5E52CFD73D700CED074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB2E5E82CFD73D700CED074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB2E5EA2CFD73D900CED074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB2E5ED2CFD73D900CED074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB2E5EF2CFD73D900CED074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD454862D06857400B92577 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DFD454872D06857400B92577 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		DFF8EE8D2D59C44000F36318 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE8E2D59C44000F36318 /* TableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE8F2D59C44000F36318 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE902D59C44000F36318 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE912D59C44000F36318 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE922D59C44000F36318 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE932D59C44000F36318 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DFF8EE952D59C44000F36318 /* KlatAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatAdd.png; sourceTree = "<group>"; };
+		DFF8EE962D59C44000F36318 /* KlatAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAdd@2x.png"; sourceTree = "<group>"; };
+		DFF8EE972D59C44000F36318 /* KlatAdd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAdd@3x.png"; sourceTree = "<group>"; };
+		DFF8EE982D59C44000F36318 /* KlatAddChannel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatAddChannel.png; sourceTree = "<group>"; };
+		DFF8EE992D59C44000F36318 /* KlatAddChannel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAddChannel@2x.png"; sourceTree = "<group>"; };
+		DFF8EE9A2D59C44000F36318 /* KlatAddChannel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAddChannel@3x.png"; sourceTree = "<group>"; };
+		DFF8EE9B2D59C44000F36318 /* KlatAddImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatAddImage.png; sourceTree = "<group>"; };
+		DFF8EE9C2D59C44000F36318 /* KlatAddImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAddImage@2x.png"; sourceTree = "<group>"; };
+		DFF8EE9D2D59C44000F36318 /* KlatAddImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAddImage@3x.png"; sourceTree = "<group>"; };
+		DFF8EE9E2D59C44000F36318 /* KlatAllChannels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatAllChannels.png; sourceTree = "<group>"; };
+		DFF8EE9F2D59C44000F36318 /* KlatAllChannels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAllChannels@2x.png"; sourceTree = "<group>"; };
+		DFF8EEA02D59C44000F36318 /* KlatAllChannels@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatAllChannels@3x.png"; sourceTree = "<group>"; };
+		DFF8EEA12D59C44000F36318 /* KlatBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatBack.png; sourceTree = "<group>"; };
+		DFF8EEA22D59C44000F36318 /* KlatBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatBack@2x.png"; sourceTree = "<group>"; };
+		DFF8EEA32D59C44000F36318 /* KlatBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatBack@3x.png"; sourceTree = "<group>"; };
+		DFF8EEA42D59C44000F36318 /* KlatBackWithWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatBackWithWhite.png; sourceTree = "<group>"; };
+		DFF8EEA52D59C44000F36318 /* KlatBackWithWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatBackWithWhite@2x.png"; sourceTree = "<group>"; };
+		DFF8EEA62D59C44000F36318 /* KlatBackWithWhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatBackWithWhite@3x.png"; sourceTree = "<group>"; };
+		DFF8EEA72D59C44000F36318 /* KlatBanned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatBanned.png; sourceTree = "<group>"; };
+		DFF8EEA82D59C44000F36318 /* KlatBanned@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatBanned@2x.png"; sourceTree = "<group>"; };
+		DFF8EEA92D59C44000F36318 /* KlatBanned@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatBanned@3x.png"; sourceTree = "<group>"; };
+		DFF8EEAA2D59C44000F36318 /* KlatCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatCamera.png; sourceTree = "<group>"; };
+		DFF8EEAB2D59C44000F36318 /* KlatCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatCamera@2x.png"; sourceTree = "<group>"; };
+		DFF8EEAC2D59C44000F36318 /* KlatCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatCamera@3x.png"; sourceTree = "<group>"; };
+		DFF8EEAD2D59C44000F36318 /* KlatCameraWithAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatCameraWithAdd.png; sourceTree = "<group>"; };
+		DFF8EEAE2D59C44000F36318 /* KlatCameraWithAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatCameraWithAdd@2x.png"; sourceTree = "<group>"; };
+		DFF8EEAF2D59C44000F36318 /* KlatCameraWithAdd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatCameraWithAdd@3x.png"; sourceTree = "<group>"; };
+		DFF8EEB02D59C44000F36318 /* KlatChannelInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatChannelInfo.png; sourceTree = "<group>"; };
+		DFF8EEB12D59C44000F36318 /* KlatChannelInfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatChannelInfo@2x.png"; sourceTree = "<group>"; };
+		DFF8EEB22D59C44000F36318 /* KlatChannelInfo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatChannelInfo@3x.png"; sourceTree = "<group>"; };
+		DFF8EEB32D59C44000F36318 /* KlatCopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatCopy.png; sourceTree = "<group>"; };
+		DFF8EEB42D59C44000F36318 /* KlatCopy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatCopy@2x.png"; sourceTree = "<group>"; };
+		DFF8EEB52D59C44000F36318 /* KlatCopy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatCopy@3x.png"; sourceTree = "<group>"; };
+		DFF8EEB62D59C44000F36318 /* KlatDefaultChannelImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatDefaultChannelImage.png; sourceTree = "<group>"; };
+		DFF8EEB72D59C44000F36318 /* KlatDefaultChannelImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDefaultChannelImage@2x.png"; sourceTree = "<group>"; };
+		DFF8EEB82D59C44000F36318 /* KlatDefaultChannelImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDefaultChannelImage@3x.png"; sourceTree = "<group>"; };
+		DFF8EEB92D59C44000F36318 /* KlatDefaultChannelImageWithCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatDefaultChannelImageWithCamera.png; sourceTree = "<group>"; };
+		DFF8EEBA2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDefaultChannelImageWithCamera@2x.png"; sourceTree = "<group>"; };
+		DFF8EEBB2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDefaultChannelImageWithCamera@3x.png"; sourceTree = "<group>"; };
+		DFF8EEBC2D59C44000F36318 /* KlatDefaultPerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatDefaultPerson.png; sourceTree = "<group>"; };
+		DFF8EEBD2D59C44000F36318 /* KlatDefaultPerson@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDefaultPerson@2x.png"; sourceTree = "<group>"; };
+		DFF8EEBE2D59C44000F36318 /* KlatDefaultPerson@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDefaultPerson@3x.png"; sourceTree = "<group>"; };
+		DFF8EEBF2D59C44000F36318 /* KlatDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatDelete.png; sourceTree = "<group>"; };
+		DFF8EEC02D59C44000F36318 /* KlatDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDelete@2x.png"; sourceTree = "<group>"; };
+		DFF8EEC12D59C44000F36318 /* KlatDelete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDelete@3x.png"; sourceTree = "<group>"; };
+		DFF8EEC22D59C44000F36318 /* KlatDownload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatDownload.png; sourceTree = "<group>"; };
+		DFF8EEC32D59C44000F36318 /* KlatDownload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDownload@2x.png"; sourceTree = "<group>"; };
+		DFF8EEC42D59C44000F36318 /* KlatDownload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatDownload@3x.png"; sourceTree = "<group>"; };
+		DFF8EEC52D59C44000F36318 /* KlatError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatError.png; sourceTree = "<group>"; };
+		DFF8EEC62D59C44000F36318 /* KlatError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatError@2x.png"; sourceTree = "<group>"; };
+		DFF8EEC72D59C44000F36318 /* KlatError@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatError@3x.png"; sourceTree = "<group>"; };
+		DFF8EEC82D59C44000F36318 /* KlatFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatFile.png; sourceTree = "<group>"; };
+		DFF8EEC92D59C44000F36318 /* KlatFile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatFile@2x.png"; sourceTree = "<group>"; };
+		DFF8EECA2D59C44000F36318 /* KlatFile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatFile@3x.png"; sourceTree = "<group>"; };
+		DFF8EECB2D59C44000F36318 /* KlatMuted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatMuted.png; sourceTree = "<group>"; };
+		DFF8EECC2D59C44000F36318 /* KlatMuted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatMuted@2x.png"; sourceTree = "<group>"; };
+		DFF8EECD2D59C44000F36318 /* KlatMuted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatMuted@3x.png"; sourceTree = "<group>"; };
+		DFF8EECE2D59C44000F36318 /* KlatMyChannel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatMyChannel.png; sourceTree = "<group>"; };
+		DFF8EECF2D59C44000F36318 /* KlatMyChannel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatMyChannel@2x.png"; sourceTree = "<group>"; };
+		DFF8EED02D59C44000F36318 /* KlatMyChannel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatMyChannel@3x.png"; sourceTree = "<group>"; };
+		DFF8EED12D59C44000F36318 /* KlatNoMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatNoMessage.png; sourceTree = "<group>"; };
+		DFF8EED22D59C44000F36318 /* KlatNoMessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatNoMessage@2x.png"; sourceTree = "<group>"; };
+		DFF8EED32D59C44000F36318 /* KlatNoMessage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatNoMessage@3x.png"; sourceTree = "<group>"; };
+		DFF8EED42D59C44000F36318 /* KlatNoSearchResult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatNoSearchResult.png; sourceTree = "<group>"; };
+		DFF8EED52D59C44000F36318 /* KlatNoSearchResult@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatNoSearchResult@2x.png"; sourceTree = "<group>"; };
+		DFF8EED62D59C44000F36318 /* KlatNoSearchResult@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatNoSearchResult@3x.png"; sourceTree = "<group>"; };
+		DFF8EED72D59C44000F36318 /* KlatOwner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatOwner.png; sourceTree = "<group>"; };
+		DFF8EED82D59C44000F36318 /* KlatOwner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatOwner@2x.png"; sourceTree = "<group>"; };
+		DFF8EED92D59C44000F36318 /* KlatOwner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatOwner@3x.png"; sourceTree = "<group>"; };
+		DFF8EEDA2D59C44000F36318 /* KlatPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatPicture.png; sourceTree = "<group>"; };
+		DFF8EEDB2D59C44000F36318 /* KlatPicture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPicture@2x.png"; sourceTree = "<group>"; };
+		DFF8EEDC2D59C44000F36318 /* KlatPicture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPicture@3x.png"; sourceTree = "<group>"; };
+		DFF8EEDD2D59C44000F36318 /* KlatPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatPlus.png; sourceTree = "<group>"; };
+		DFF8EEDE2D59C44000F36318 /* KlatPlus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPlus@2x.png"; sourceTree = "<group>"; };
+		DFF8EEDF2D59C44000F36318 /* KlatPlus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPlus@3x.png"; sourceTree = "<group>"; };
+		DFF8EEE02D59C44000F36318 /* KlatPrivateChat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatPrivateChat.png; sourceTree = "<group>"; };
+		DFF8EEE12D59C44000F36318 /* KlatPrivateChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPrivateChat@2x.png"; sourceTree = "<group>"; };
+		DFF8EEE22D59C44000F36318 /* KlatPrivateChat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPrivateChat@3x.png"; sourceTree = "<group>"; };
+		DFF8EEE32D59C44000F36318 /* KlatPushDisable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatPushDisable.png; sourceTree = "<group>"; };
+		DFF8EEE42D59C44000F36318 /* KlatPushDisable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPushDisable@2x.png"; sourceTree = "<group>"; };
+		DFF8EEE52D59C44000F36318 /* KlatPushDisable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPushDisable@3x.png"; sourceTree = "<group>"; };
+		DFF8EEE62D59C44000F36318 /* KlatPushEnable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatPushEnable.png; sourceTree = "<group>"; };
+		DFF8EEE72D59C44000F36318 /* KlatPushEnable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPushEnable@2x.png"; sourceTree = "<group>"; };
+		DFF8EEE82D59C44000F36318 /* KlatPushEnable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatPushEnable@3x.png"; sourceTree = "<group>"; };
+		DFF8EEE92D59C44000F36318 /* KlatRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatRefresh.png; sourceTree = "<group>"; };
+		DFF8EEEA2D59C44000F36318 /* KlatRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatRefresh@2x.png"; sourceTree = "<group>"; };
+		DFF8EEEB2D59C44000F36318 /* KlatRefresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatRefresh@3x.png"; sourceTree = "<group>"; };
+		DFF8EEEC2D59C44000F36318 /* KlatRightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatRightArrow.png; sourceTree = "<group>"; };
+		DFF8EEED2D59C44000F36318 /* KlatRightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatRightArrow@2x.png"; sourceTree = "<group>"; };
+		DFF8EEEE2D59C44000F36318 /* KlatRightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatRightArrow@3x.png"; sourceTree = "<group>"; };
+		DFF8EEEF2D59C44000F36318 /* KlatSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatSearch.png; sourceTree = "<group>"; };
+		DFF8EEF02D59C44000F36318 /* KlatSearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatSearch@2x.png"; sourceTree = "<group>"; };
+		DFF8EEF12D59C44000F36318 /* KlatSearch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatSearch@3x.png"; sourceTree = "<group>"; };
+		DFF8EEF22D59C44000F36318 /* KlatStepperMinus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatStepperMinus.png; sourceTree = "<group>"; };
+		DFF8EEF32D59C44000F36318 /* KlatStepperMinus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatStepperMinus@2x.png"; sourceTree = "<group>"; };
+		DFF8EEF42D59C44000F36318 /* KlatStepperMinus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatStepperMinus@3x.png"; sourceTree = "<group>"; };
+		DFF8EEF52D59C44000F36318 /* KlatStepperPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatStepperPlus.png; sourceTree = "<group>"; };
+		DFF8EEF62D59C44000F36318 /* KlatStepperPlus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatStepperPlus@2x.png"; sourceTree = "<group>"; };
+		DFF8EEF72D59C44000F36318 /* KlatStepperPlus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatStepperPlus@3x.png"; sourceTree = "<group>"; };
+		DFF8EEF82D59C44000F36318 /* KlatUnBanned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatUnBanned.png; sourceTree = "<group>"; };
+		DFF8EEF92D59C44000F36318 /* KlatUnBanned@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatUnBanned@2x.png"; sourceTree = "<group>"; };
+		DFF8EEFA2D59C44000F36318 /* KlatUnBanned@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatUnBanned@3x.png"; sourceTree = "<group>"; };
+		DFF8EEFB2D59C44000F36318 /* KlatUnMuted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatUnMuted.png; sourceTree = "<group>"; };
+		DFF8EEFC2D59C44000F36318 /* KlatUnMuted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatUnMuted@2x.png"; sourceTree = "<group>"; };
+		DFF8EEFD2D59C44000F36318 /* KlatUnMuted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatUnMuted@3x.png"; sourceTree = "<group>"; };
+		DFF8EEFE2D59C44000F36318 /* KlatXMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatXMark.png; sourceTree = "<group>"; };
+		DFF8EEFF2D59C44000F36318 /* KlatXMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatXMark@2x.png"; sourceTree = "<group>"; };
+		DFF8EF002D59C44000F36318 /* KlatXMark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatXMark@3x.png"; sourceTree = "<group>"; };
+		DFF8EF012D59C44000F36318 /* KlatXwithCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KlatXwithCircle.png; sourceTree = "<group>"; };
+		DFF8EF022D59C44000F36318 /* KlatXwithCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatXwithCircle@2x.png"; sourceTree = "<group>"; };
+		DFF8EF032D59C44000F36318 /* KlatXwithCircle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KlatXwithCircle@3x.png"; sourceTree = "<group>"; };
+		DFF8EF052D59C44000F36318 /* KlatAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KlatAssets.xcassets; sourceTree = "<group>"; };
+		DFF8EF072D59C44000F36318 /* KlatChatAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChatAPIs.swift; sourceTree = "<group>"; };
+		DFF8EF092D59C44000F36318 /* KlatUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlatUIKit.h; sourceTree = "<group>"; };
+		DFF8EF0B2D59C44000F36318 /* KlatChannelActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChannelActionViewController.swift; sourceTree = "<group>"; };
+		DFF8EF0C2D59C44000F36318 /* KlatChannelActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatChannelActionViewController.xib; sourceTree = "<group>"; };
+		DFF8EF0D2D59C44000F36318 /* KlatChannelActionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChannelActionViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF0F2D59C44000F36318 /* KlatChannelListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChannelListTableViewCell.swift; sourceTree = "<group>"; };
+		DFF8EF102D59C44000F36318 /* KlatChannelListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatChannelListTableViewCell.xib; sourceTree = "<group>"; };
+		DFF8EF122D59C44000F36318 /* KlatChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChannelListViewController.swift; sourceTree = "<group>"; };
+		DFF8EF132D59C44000F36318 /* KlatChannelListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatChannelListViewController.xib; sourceTree = "<group>"; };
+		DFF8EF142D59C44000F36318 /* KlatChannelListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChannelListViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF162D59C44000F36318 /* KlatChatMessageProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChatMessageProtocol.swift; sourceTree = "<group>"; };
+		DFF8EF172D59C44000F36318 /* KlatMyChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMyChatMessageCell.swift; sourceTree = "<group>"; };
+		DFF8EF182D59C44000F36318 /* KlatMyChatMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatMyChatMessageCell.xib; sourceTree = "<group>"; };
+		DFF8EF192D59C44000F36318 /* KlatMyChatMessageCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatMyChatMessageCell2.xib; sourceTree = "<group>"; };
+		DFF8EF1A2D59C44000F36318 /* KlatYourChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatYourChatMessageCell.swift; sourceTree = "<group>"; };
+		DFF8EF1B2D59C44000F36318 /* KlatYourChatMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatYourChatMessageCell.xib; sourceTree = "<group>"; };
+		DFF8EF1D2D59C44000F36318 /* KlatChatMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChatMessageViewController.swift; sourceTree = "<group>"; };
+		DFF8EF1E2D59C44000F36318 /* KlatChatMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatChatMessageViewController.xib; sourceTree = "<group>"; };
+		DFF8EF1F2D59C44000F36318 /* KlatChatMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatChatMessageViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF212D59C44000F36318 /* KlatCreateChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatCreateChannelViewController.swift; sourceTree = "<group>"; };
+		DFF8EF222D59C44000F36318 /* KlatCreateChannelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatCreateChannelViewController.xib; sourceTree = "<group>"; };
+		DFF8EF232D59C44000F36318 /* KlatCreateChannelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatCreateChannelViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF252D59C44000F36318 /* KlatCustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatCustomTextField.swift; sourceTree = "<group>"; };
+		DFF8EF272D59C44000F36318 /* KlatEditChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatEditChannelViewController.swift; sourceTree = "<group>"; };
+		DFF8EF282D59C44000F36318 /* KlatEditChannelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatEditChannelViewController.xib; sourceTree = "<group>"; };
+		DFF8EF292D59C44000F36318 /* KlatEditChannelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatEditChannelViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF2B2D59C44000F36318 /* KlatErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatErrorViewController.swift; sourceTree = "<group>"; };
+		DFF8EF2C2D59C44000F36318 /* KlatErrorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatErrorViewController.xib; sourceTree = "<group>"; };
+		DFF8EF2E2D59C44000F36318 /* KlatImageViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatImageViewerViewController.swift; sourceTree = "<group>"; };
+		DFF8EF2F2D59C44000F36318 /* KlatImageViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatImageViewerViewController.xib; sourceTree = "<group>"; };
+		DFF8EF312D59C44000F36318 /* KlatMemberInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMemberInfoViewController.swift; sourceTree = "<group>"; };
+		DFF8EF322D59C44000F36318 /* KlatMemberInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatMemberInfoViewController.xib; sourceTree = "<group>"; };
+		DFF8EF332D59C44000F36318 /* KlatMemberInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMemberInfoViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF352D59C44000F36318 /* KlatMemberListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMemberListTableViewCell.swift; sourceTree = "<group>"; };
+		DFF8EF362D59C44000F36318 /* KlatMemberListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatMemberListTableViewCell.xib; sourceTree = "<group>"; };
+		DFF8EF382D59C44000F36318 /* KlatMemberListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMemberListViewController.swift; sourceTree = "<group>"; };
+		DFF8EF392D59C44000F36318 /* KlatMemberListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatMemberListViewController.xib; sourceTree = "<group>"; };
+		DFF8EF3A2D59C44000F36318 /* KlatMemberListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMemberListViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF3C2D59C44000F36318 /* KlatMessageActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMessageActionViewController.swift; sourceTree = "<group>"; };
+		DFF8EF3D2D59C44000F36318 /* KlatMessageActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatMessageActionViewController.xib; sourceTree = "<group>"; };
+		DFF8EF3E2D59C44000F36318 /* KlatMessageActionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatMessageActionViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF402D59C44000F36318 /* KlatRestrictedListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatRestrictedListTableViewCell.swift; sourceTree = "<group>"; };
+		DFF8EF412D59C44000F36318 /* KlatRestrictedListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatRestrictedListTableViewCell.xib; sourceTree = "<group>"; };
+		DFF8EF432D59C44000F36318 /* KlatRestrictedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatRestrictedListViewController.swift; sourceTree = "<group>"; };
+		DFF8EF442D59C44000F36318 /* KlatRestrictedListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatRestrictedListViewController.xib; sourceTree = "<group>"; };
+		DFF8EF452D59C44000F36318 /* KlatRestrictedListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatRestrictedListViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF472D59C44000F36318 /* KlatSearchChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatSearchChannelViewController.swift; sourceTree = "<group>"; };
+		DFF8EF482D59C44000F36318 /* KlatSearchChannelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlatSearchChannelViewController.xib; sourceTree = "<group>"; };
+		DFF8EF492D59C44000F36318 /* KlatSearchChannelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatSearchChannelViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF4B2D59C44000F36318 /* KlatBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatBaseViewController.swift; sourceTree = "<group>"; };
+		DFF8EF4C2D59C44000F36318 /* KlatBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatBaseViewModel.swift; sourceTree = "<group>"; };
+		DFF8EF4D2D59C44000F36318 /* KlatError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatError.swift; sourceTree = "<group>"; };
+		DFF8EF4F2D59C44000F36318 /* KlatUIKitSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlatUIKitSDK.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB2E5DB2CFD73D700CED074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5E9B3D2D5DDA2300E7AD14 /* spm-talkplus-framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF740F482CFD748900ED641A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB2E5D52CFD73D700CED074 = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF512D59C44000F36318 /* Sources */,
+				DFB2E5E02CFD73D700CED074 /* KlatUIKitDemo */,
+				DFB2E5DF2CFD73D700CED074 /* Products */,
+				DF740F482CFD748900ED641A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB2E5DF2CFD73D700CED074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2E5DE2CFD73D700CED074 /* KlatUIKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB2E5E02CFD73D700CED074 /* KlatUIKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2E5E12CFD73D700CED074 /* AppDelegate.swift */,
+				DFB2E5E32CFD73D700CED074 /* SceneDelegate.swift */,
+				DFB2E5E52CFD73D700CED074 /* ViewController.swift */,
+				DFD454862D06857400B92577 /* SignInViewController.swift */,
+				DFD454872D06857400B92577 /* SignInViewController.xib */,
+				DFB2E5E72CFD73D700CED074 /* Main.storyboard */,
+				DFB2E5EA2CFD73D900CED074 /* Assets.xcassets */,
+				DFB2E5EC2CFD73D900CED074 /* LaunchScreen.storyboard */,
+				DFB2E5EF2CFD73D900CED074 /* Info.plist */,
+			);
+			path = KlatUIKitDemo;
+			sourceTree = "<group>";
+		};
+		DFF8EE942D59C44000F36318 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EE8D2D59C44000F36318 /* Date+Extension.swift */,
+				DFF8EE8E2D59C44000F36318 /* TableView+Extension.swift */,
+				DFF8EE8F2D59C44000F36318 /* UIColor+Extension.swift */,
+				DFF8EE902D59C44000F36318 /* UIImage+Extension.swift */,
+				DFF8EE912D59C44000F36318 /* UITableViewCell+Extension.swift */,
+				DFF8EE922D59C44000F36318 /* UIView+Extension.swift */,
+				DFF8EE932D59C44000F36318 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFF8EF042D59C44000F36318 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EE952D59C44000F36318 /* KlatAdd.png */,
+				DFF8EE962D59C44000F36318 /* KlatAdd@2x.png */,
+				DFF8EE972D59C44000F36318 /* KlatAdd@3x.png */,
+				DFF8EE982D59C44000F36318 /* KlatAddChannel.png */,
+				DFF8EE992D59C44000F36318 /* KlatAddChannel@2x.png */,
+				DFF8EE9A2D59C44000F36318 /* KlatAddChannel@3x.png */,
+				DFF8EE9B2D59C44000F36318 /* KlatAddImage.png */,
+				DFF8EE9C2D59C44000F36318 /* KlatAddImage@2x.png */,
+				DFF8EE9D2D59C44000F36318 /* KlatAddImage@3x.png */,
+				DFF8EE9E2D59C44000F36318 /* KlatAllChannels.png */,
+				DFF8EE9F2D59C44000F36318 /* KlatAllChannels@2x.png */,
+				DFF8EEA02D59C44000F36318 /* KlatAllChannels@3x.png */,
+				DFF8EEA12D59C44000F36318 /* KlatBack.png */,
+				DFF8EEA22D59C44000F36318 /* KlatBack@2x.png */,
+				DFF8EEA32D59C44000F36318 /* KlatBack@3x.png */,
+				DFF8EEA42D59C44000F36318 /* KlatBackWithWhite.png */,
+				DFF8EEA52D59C44000F36318 /* KlatBackWithWhite@2x.png */,
+				DFF8EEA62D59C44000F36318 /* KlatBackWithWhite@3x.png */,
+				DFF8EEA72D59C44000F36318 /* KlatBanned.png */,
+				DFF8EEA82D59C44000F36318 /* KlatBanned@2x.png */,
+				DFF8EEA92D59C44000F36318 /* KlatBanned@3x.png */,
+				DFF8EEAA2D59C44000F36318 /* KlatCamera.png */,
+				DFF8EEAB2D59C44000F36318 /* KlatCamera@2x.png */,
+				DFF8EEAC2D59C44000F36318 /* KlatCamera@3x.png */,
+				DFF8EEAD2D59C44000F36318 /* KlatCameraWithAdd.png */,
+				DFF8EEAE2D59C44000F36318 /* KlatCameraWithAdd@2x.png */,
+				DFF8EEAF2D59C44000F36318 /* KlatCameraWithAdd@3x.png */,
+				DFF8EEB02D59C44000F36318 /* KlatChannelInfo.png */,
+				DFF8EEB12D59C44000F36318 /* KlatChannelInfo@2x.png */,
+				DFF8EEB22D59C44000F36318 /* KlatChannelInfo@3x.png */,
+				DFF8EEB32D59C44000F36318 /* KlatCopy.png */,
+				DFF8EEB42D59C44000F36318 /* KlatCopy@2x.png */,
+				DFF8EEB52D59C44000F36318 /* KlatCopy@3x.png */,
+				DFF8EEB62D59C44000F36318 /* KlatDefaultChannelImage.png */,
+				DFF8EEB72D59C44000F36318 /* KlatDefaultChannelImage@2x.png */,
+				DFF8EEB82D59C44000F36318 /* KlatDefaultChannelImage@3x.png */,
+				DFF8EEB92D59C44000F36318 /* KlatDefaultChannelImageWithCamera.png */,
+				DFF8EEBA2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@2x.png */,
+				DFF8EEBB2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@3x.png */,
+				DFF8EEBC2D59C44000F36318 /* KlatDefaultPerson.png */,
+				DFF8EEBD2D59C44000F36318 /* KlatDefaultPerson@2x.png */,
+				DFF8EEBE2D59C44000F36318 /* KlatDefaultPerson@3x.png */,
+				DFF8EEBF2D59C44000F36318 /* KlatDelete.png */,
+				DFF8EEC02D59C44000F36318 /* KlatDelete@2x.png */,
+				DFF8EEC12D59C44000F36318 /* KlatDelete@3x.png */,
+				DFF8EEC22D59C44000F36318 /* KlatDownload.png */,
+				DFF8EEC32D59C44000F36318 /* KlatDownload@2x.png */,
+				DFF8EEC42D59C44000F36318 /* KlatDownload@3x.png */,
+				DFF8EEC52D59C44000F36318 /* KlatError.png */,
+				DFF8EEC62D59C44000F36318 /* KlatError@2x.png */,
+				DFF8EEC72D59C44000F36318 /* KlatError@3x.png */,
+				DFF8EEC82D59C44000F36318 /* KlatFile.png */,
+				DFF8EEC92D59C44000F36318 /* KlatFile@2x.png */,
+				DFF8EECA2D59C44000F36318 /* KlatFile@3x.png */,
+				DFF8EECB2D59C44000F36318 /* KlatMuted.png */,
+				DFF8EECC2D59C44000F36318 /* KlatMuted@2x.png */,
+				DFF8EECD2D59C44000F36318 /* KlatMuted@3x.png */,
+				DFF8EECE2D59C44000F36318 /* KlatMyChannel.png */,
+				DFF8EECF2D59C44000F36318 /* KlatMyChannel@2x.png */,
+				DFF8EED02D59C44000F36318 /* KlatMyChannel@3x.png */,
+				DFF8EED12D59C44000F36318 /* KlatNoMessage.png */,
+				DFF8EED22D59C44000F36318 /* KlatNoMessage@2x.png */,
+				DFF8EED32D59C44000F36318 /* KlatNoMessage@3x.png */,
+				DFF8EED42D59C44000F36318 /* KlatNoSearchResult.png */,
+				DFF8EED52D59C44000F36318 /* KlatNoSearchResult@2x.png */,
+				DFF8EED62D59C44000F36318 /* KlatNoSearchResult@3x.png */,
+				DFF8EED72D59C44000F36318 /* KlatOwner.png */,
+				DFF8EED82D59C44000F36318 /* KlatOwner@2x.png */,
+				DFF8EED92D59C44000F36318 /* KlatOwner@3x.png */,
+				DFF8EEDA2D59C44000F36318 /* KlatPicture.png */,
+				DFF8EEDB2D59C44000F36318 /* KlatPicture@2x.png */,
+				DFF8EEDC2D59C44000F36318 /* KlatPicture@3x.png */,
+				DFF8EEDD2D59C44000F36318 /* KlatPlus.png */,
+				DFF8EEDE2D59C44000F36318 /* KlatPlus@2x.png */,
+				DFF8EEDF2D59C44000F36318 /* KlatPlus@3x.png */,
+				DFF8EEE02D59C44000F36318 /* KlatPrivateChat.png */,
+				DFF8EEE12D59C44000F36318 /* KlatPrivateChat@2x.png */,
+				DFF8EEE22D59C44000F36318 /* KlatPrivateChat@3x.png */,
+				DFF8EEE32D59C44000F36318 /* KlatPushDisable.png */,
+				DFF8EEE42D59C44000F36318 /* KlatPushDisable@2x.png */,
+				DFF8EEE52D59C44000F36318 /* KlatPushDisable@3x.png */,
+				DFF8EEE62D59C44000F36318 /* KlatPushEnable.png */,
+				DFF8EEE72D59C44000F36318 /* KlatPushEnable@2x.png */,
+				DFF8EEE82D59C44000F36318 /* KlatPushEnable@3x.png */,
+				DFF8EEE92D59C44000F36318 /* KlatRefresh.png */,
+				DFF8EEEA2D59C44000F36318 /* KlatRefresh@2x.png */,
+				DFF8EEEB2D59C44000F36318 /* KlatRefresh@3x.png */,
+				DFF8EEEC2D59C44000F36318 /* KlatRightArrow.png */,
+				DFF8EEED2D59C44000F36318 /* KlatRightArrow@2x.png */,
+				DFF8EEEE2D59C44000F36318 /* KlatRightArrow@3x.png */,
+				DFF8EEEF2D59C44000F36318 /* KlatSearch.png */,
+				DFF8EEF02D59C44000F36318 /* KlatSearch@2x.png */,
+				DFF8EEF12D59C44000F36318 /* KlatSearch@3x.png */,
+				DFF8EEF22D59C44000F36318 /* KlatStepperMinus.png */,
+				DFF8EEF32D59C44000F36318 /* KlatStepperMinus@2x.png */,
+				DFF8EEF42D59C44000F36318 /* KlatStepperMinus@3x.png */,
+				DFF8EEF52D59C44000F36318 /* KlatStepperPlus.png */,
+				DFF8EEF62D59C44000F36318 /* KlatStepperPlus@2x.png */,
+				DFF8EEF72D59C44000F36318 /* KlatStepperPlus@3x.png */,
+				DFF8EEF82D59C44000F36318 /* KlatUnBanned.png */,
+				DFF8EEF92D59C44000F36318 /* KlatUnBanned@2x.png */,
+				DFF8EEFA2D59C44000F36318 /* KlatUnBanned@3x.png */,
+				DFF8EEFB2D59C44000F36318 /* KlatUnMuted.png */,
+				DFF8EEFC2D59C44000F36318 /* KlatUnMuted@2x.png */,
+				DFF8EEFD2D59C44000F36318 /* KlatUnMuted@3x.png */,
+				DFF8EEFE2D59C44000F36318 /* KlatXMark.png */,
+				DFF8EEFF2D59C44000F36318 /* KlatXMark@2x.png */,
+				DFF8EF002D59C44000F36318 /* KlatXMark@3x.png */,
+				DFF8EF012D59C44000F36318 /* KlatXwithCircle.png */,
+				DFF8EF022D59C44000F36318 /* KlatXwithCircle@2x.png */,
+				DFF8EF032D59C44000F36318 /* KlatXwithCircle@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		DFF8EF062D59C44000F36318 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF042D59C44000F36318 /* images */,
+				DFF8EF052D59C44000F36318 /* KlatAssets.xcassets */,
+			);
+			path = ImageAssets;
+			sourceTree = "<group>";
+		};
+		DFF8EF082D59C44000F36318 /* KlatChatAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF072D59C44000F36318 /* KlatChatAPIs.swift */,
+			);
+			path = KlatChatAPIs;
+			sourceTree = "<group>";
+		};
+		DFF8EF0A2D59C44000F36318 /* KlatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF092D59C44000F36318 /* KlatUIKit.h */,
+			);
+			path = KlatUIKit;
+			sourceTree = "<group>";
+		};
+		DFF8EF0E2D59C44000F36318 /* ChannelActionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF0B2D59C44000F36318 /* KlatChannelActionViewController.swift */,
+				DFF8EF0C2D59C44000F36318 /* KlatChannelActionViewController.xib */,
+				DFF8EF0D2D59C44000F36318 /* KlatChannelActionViewModel.swift */,
+			);
+			path = ChannelActionViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF112D59C44000F36318 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF0F2D59C44000F36318 /* KlatChannelListTableViewCell.swift */,
+				DFF8EF102D59C44000F36318 /* KlatChannelListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DFF8EF152D59C44000F36318 /* ChannelListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF112D59C44000F36318 /* TableViewCell */,
+				DFF8EF122D59C44000F36318 /* KlatChannelListViewController.swift */,
+				DFF8EF132D59C44000F36318 /* KlatChannelListViewController.xib */,
+				DFF8EF142D59C44000F36318 /* KlatChannelListViewModel.swift */,
+			);
+			path = ChannelListViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF1C2D59C44000F36318 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF162D59C44000F36318 /* KlatChatMessageProtocol.swift */,
+				DFF8EF172D59C44000F36318 /* KlatMyChatMessageCell.swift */,
+				DFF8EF182D59C44000F36318 /* KlatMyChatMessageCell.xib */,
+				DFF8EF192D59C44000F36318 /* KlatMyChatMessageCell2.xib */,
+				DFF8EF1A2D59C44000F36318 /* KlatYourChatMessageCell.swift */,
+				DFF8EF1B2D59C44000F36318 /* KlatYourChatMessageCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DFF8EF202D59C44000F36318 /* ChatMessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF1C2D59C44000F36318 /* TableViewCell */,
+				DFF8EF1D2D59C44000F36318 /* KlatChatMessageViewController.swift */,
+				DFF8EF1E2D59C44000F36318 /* KlatChatMessageViewController.xib */,
+				DFF8EF1F2D59C44000F36318 /* KlatChatMessageViewModel.swift */,
+			);
+			path = ChatMessageViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF242D59C44000F36318 /* CreateChannelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF212D59C44000F36318 /* KlatCreateChannelViewController.swift */,
+				DFF8EF222D59C44000F36318 /* KlatCreateChannelViewController.xib */,
+				DFF8EF232D59C44000F36318 /* KlatCreateChannelViewModel.swift */,
+			);
+			path = CreateChannelViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF262D59C44000F36318 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF252D59C44000F36318 /* KlatCustomTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DFF8EF2A2D59C44000F36318 /* EditChannelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF272D59C44000F36318 /* KlatEditChannelViewController.swift */,
+				DFF8EF282D59C44000F36318 /* KlatEditChannelViewController.xib */,
+				DFF8EF292D59C44000F36318 /* KlatEditChannelViewModel.swift */,
+			);
+			path = EditChannelViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF2D2D59C44000F36318 /* ErrorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF2B2D59C44000F36318 /* KlatErrorViewController.swift */,
+				DFF8EF2C2D59C44000F36318 /* KlatErrorViewController.xib */,
+			);
+			path = ErrorViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF302D59C44000F36318 /* ImageViewerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF2E2D59C44000F36318 /* KlatImageViewerViewController.swift */,
+				DFF8EF2F2D59C44000F36318 /* KlatImageViewerViewController.xib */,
+			);
+			path = ImageViewerViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF342D59C44000F36318 /* MemberInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF312D59C44000F36318 /* KlatMemberInfoViewController.swift */,
+				DFF8EF322D59C44000F36318 /* KlatMemberInfoViewController.xib */,
+				DFF8EF332D59C44000F36318 /* KlatMemberInfoViewModel.swift */,
+			);
+			path = MemberInfoViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF372D59C44000F36318 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF352D59C44000F36318 /* KlatMemberListTableViewCell.swift */,
+				DFF8EF362D59C44000F36318 /* KlatMemberListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DFF8EF3B2D59C44000F36318 /* MemberListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF372D59C44000F36318 /* TableViewCell */,
+				DFF8EF382D59C44000F36318 /* KlatMemberListViewController.swift */,
+				DFF8EF392D59C44000F36318 /* KlatMemberListViewController.xib */,
+				DFF8EF3A2D59C44000F36318 /* KlatMemberListViewModel.swift */,
+			);
+			path = MemberListViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF3F2D59C44000F36318 /* MessageActionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF3C2D59C44000F36318 /* KlatMessageActionViewController.swift */,
+				DFF8EF3D2D59C44000F36318 /* KlatMessageActionViewController.xib */,
+				DFF8EF3E2D59C44000F36318 /* KlatMessageActionViewModel.swift */,
+			);
+			path = MessageActionViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF422D59C44000F36318 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF402D59C44000F36318 /* KlatRestrictedListTableViewCell.swift */,
+				DFF8EF412D59C44000F36318 /* KlatRestrictedListTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DFF8EF462D59C44000F36318 /* RestrictedListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF422D59C44000F36318 /* TableViewCell */,
+				DFF8EF432D59C44000F36318 /* KlatRestrictedListViewController.swift */,
+				DFF8EF442D59C44000F36318 /* KlatRestrictedListViewController.xib */,
+				DFF8EF452D59C44000F36318 /* KlatRestrictedListViewModel.swift */,
+			);
+			path = RestrictedListViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF4A2D59C44000F36318 /* SearchChannelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF472D59C44000F36318 /* KlatSearchChannelViewController.swift */,
+				DFF8EF482D59C44000F36318 /* KlatSearchChannelViewController.xib */,
+				DFF8EF492D59C44000F36318 /* KlatSearchChannelViewModel.swift */,
+			);
+			path = SearchChannelViewController;
+			sourceTree = "<group>";
+		};
+		DFF8EF4E2D59C44000F36318 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EF0E2D59C44000F36318 /* ChannelActionViewController */,
+				DFF8EF152D59C44000F36318 /* ChannelListViewController */,
+				DFF8EF202D59C44000F36318 /* ChatMessageViewController */,
+				DFF8EF242D59C44000F36318 /* CreateChannelViewController */,
+				DFF8EF262D59C44000F36318 /* CustomViews */,
+				DFF8EF2A2D59C44000F36318 /* EditChannelViewController */,
+				DFF8EF2D2D59C44000F36318 /* ErrorViewController */,
+				DFF8EF302D59C44000F36318 /* ImageViewerViewController */,
+				DFF8EF342D59C44000F36318 /* MemberInfoViewController */,
+				DFF8EF3B2D59C44000F36318 /* MemberListViewController */,
+				DFF8EF3F2D59C44000F36318 /* MessageActionViewController */,
+				DFF8EF462D59C44000F36318 /* RestrictedListViewController */,
+				DFF8EF4A2D59C44000F36318 /* SearchChannelViewController */,
+				DFF8EF4B2D59C44000F36318 /* KlatBaseViewController.swift */,
+				DFF8EF4C2D59C44000F36318 /* KlatBaseViewModel.swift */,
+				DFF8EF4D2D59C44000F36318 /* KlatError.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DFF8EF512D59C44000F36318 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DFF8EE942D59C44000F36318 /* Extensions */,
+				DFF8EF062D59C44000F36318 /* ImageAssets */,
+				DFF8EF082D59C44000F36318 /* KlatChatAPIs */,
+				DFF8EF0A2D59C44000F36318 /* KlatUIKit */,
+				DFF8EF4E2D59C44000F36318 /* ViewControllers */,
+				DFF8EF4F2D59C44000F36318 /* KlatUIKitSDK.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB2E5DD2CFD73D700CED074 /* KlatUIKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB2E5F22CFD73D900CED074 /* Build configuration list for PBXNativeTarget "KlatUIKitDemo" */;
+			buildPhases = (
+				DFB2E5DA2CFD73D700CED074 /* Sources */,
+				DFB2E5DB2CFD73D700CED074 /* Frameworks */,
+				DFB2E5DC2CFD73D700CED074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KlatUIKitDemo;
+			packageProductDependencies = (
+				DF5E9B3C2D5DDA2300E7AD14 /* spm-talkplus-framework */,
+			);
+			productName = KlatUIKitDemo;
+			productReference = DFB2E5DE2CFD73D700CED074 /* KlatUIKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB2E5D62CFD73D700CED074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DFB2E5DD2CFD73D700CED074 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DFB2E5D92CFD73D700CED074 /* Build configuration list for PBXProject "KlatUIKitDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = DFB2E5D52CFD73D700CED074;
+			packageReferences = (
+				DF5E9B3B2D5DDA2300E7AD14 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */,
+			);
+			productRefGroup = DFB2E5DF2CFD73D700CED074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB2E5DD2CFD73D700CED074 /* KlatUIKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB2E5DC2CFD73D700CED074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8EFE72D59C44000F36318 /* KlatMemberInfoViewController.xib in Resources */,
+				DFF8EFA02D59C44000F36318 /* KlatPicture@3x.png in Resources */,
+				DFF8EF752D59C44000F36318 /* KlatChannelInfo@2x.png in Resources */,
+				DFF8EF702D59C44000F36318 /* KlatCamera@3x.png in Resources */,
+				DFF8EFD52D59C44000F36318 /* KlatMyChatMessageCell2.xib in Resources */,
+				DFF8EF6E2D59C44000F36318 /* KlatCamera.png in Resources */,
+				DFF8EF9D2D59C44000F36318 /* KlatOwner@3x.png in Resources */,
+				DFF8EF9E2D59C44000F36318 /* KlatPicture.png in Resources */,
+				DFF8EF832D59C44000F36318 /* KlatDelete.png in Resources */,
+				DFF8EFA62D59C44000F36318 /* KlatPrivateChat@3x.png in Resources */,
+				DFF8EF7B2D59C44000F36318 /* KlatDefaultChannelImage@2x.png in Resources */,
+				DFF8EF962D59C44000F36318 /* KlatNoMessage@2x.png in Resources */,
+				DFF8EF882D59C44000F36318 /* KlatDownload@3x.png in Resources */,
+				DFF8EF912D59C44000F36318 /* KlatMuted@3x.png in Resources */,
+				DFF8EFC72D59C44000F36318 /* KlatXwithCircle@3x.png in Resources */,
+				DFF8EFD72D59C44000F36318 /* KlatYourChatMessageCell.xib in Resources */,
+				DFF8EFE52D59C44000F36318 /* KlatImageViewerViewController.xib in Resources */,
+				DFF8EFCB2D59C44000F36318 /* KlatChannelActionViewController.xib in Resources */,
+				DFF8EFCE2D59C44000F36318 /* KlatChannelListTableViewCell.xib in Resources */,
+				DFF8EF612D59C44000F36318 /* KlatAddImage@3x.png in Resources */,
+				DFF8EF7D2D59C44000F36318 /* KlatDefaultChannelImageWithCamera.png in Resources */,
+				DFF8EFD42D59C44000F36318 /* KlatMyChatMessageCell.xib in Resources */,
+				DFF8EFBE2D59C44000F36318 /* KlatUnBanned@3x.png in Resources */,
+				DFF8EFAC2D59C44000F36318 /* KlatPushEnable@3x.png in Resources */,
+				DFF8EF9B2D59C44000F36318 /* KlatOwner.png in Resources */,
+				DFF8EFAD2D59C44000F36318 /* KlatRefresh.png in Resources */,
+				DFF8EF662D59C44000F36318 /* KlatBack@2x.png in Resources */,
+				DFF8EF8D2D59C44000F36318 /* KlatFile@2x.png in Resources */,
+				DFF8EFF72D59C44000F36318 /* KlatSearchChannelViewController.xib in Resources */,
+				DFF8EF732D59C44000F36318 /* KlatCameraWithAdd@3x.png in Resources */,
+				DFF8EF6D2D59C44000F36318 /* KlatBanned@3x.png in Resources */,
+				DFF8EFB32D59C44000F36318 /* KlatSearch.png in Resources */,
+				DFF8EF682D59C44000F36318 /* KlatBackWithWhite.png in Resources */,
+				DFF8EF932D59C44000F36318 /* KlatMyChannel@2x.png in Resources */,
+				DFF8EF602D59C44000F36318 /* KlatAddImage@2x.png in Resources */,
+				DFF8EFC32D59C44000F36318 /* KlatXMark@2x.png in Resources */,
+				DFF8EF5D2D59C44000F36318 /* KlatAddChannel@2x.png in Resources */,
+				DFF8EFBC2D59C44000F36318 /* KlatUnBanned.png in Resources */,
+				DFF8EF842D59C44000F36318 /* KlatDelete@2x.png in Resources */,
+				DFF8EFC02D59C44000F36318 /* KlatUnMuted@2x.png in Resources */,
+				DFF8EF902D59C44000F36318 /* KlatMuted@2x.png in Resources */,
+				DFF8EF692D59C44000F36318 /* KlatBackWithWhite@2x.png in Resources */,
+				DFF8EFC62D59C44000F36318 /* KlatXwithCircle@2x.png in Resources */,
+				DFF8EFDC2D59C44000F36318 /* KlatCreateChannelViewController.xib in Resources */,
+				DFF8EF8E2D59C44000F36318 /* KlatFile@3x.png in Resources */,
+				DFF8EFF22D59C44000F36318 /* KlatRestrictedListTableViewCell.xib in Resources */,
+				DFF8EFA72D59C44000F36318 /* KlatPushDisable.png in Resources */,
+				DFD454892D06857400B92577 /* SignInViewController.xib in Resources */,
+				DFF8EFA52D59C44000F36318 /* KlatPrivateChat@2x.png in Resources */,
+				DFF8EFEF2D59C44000F36318 /* KlatMessageActionViewController.xib in Resources */,
+				DFB2E5EB2CFD73D900CED074 /* Assets.xcassets in Resources */,
+				DFF8EF712D59C44000F36318 /* KlatCameraWithAdd.png in Resources */,
+				DFF8EFE32D59C44000F36318 /* KlatErrorViewController.xib in Resources */,
+				DFF8EFB52D59C44000F36318 /* KlatSearch@3x.png in Resources */,
+				DFF8EFBB2D59C44000F36318 /* KlatStepperPlus@3x.png in Resources */,
+				DFF8EF8C2D59C44000F36318 /* KlatFile.png in Resources */,
+				DFF8EF6F2D59C44000F36318 /* KlatCamera@2x.png in Resources */,
+				DFF8EFB92D59C44000F36318 /* KlatStepperPlus.png in Resources */,
+				DFF8EF9A2D59C44000F36318 /* KlatNoSearchResult@3x.png in Resources */,
+				DFF8EF672D59C44000F36318 /* KlatBack@3x.png in Resources */,
+				DFF8EFC12D59C44000F36318 /* KlatUnMuted@3x.png in Resources */,
+				DFF8EF6B2D59C44000F36318 /* KlatBanned.png in Resources */,
+				DFF8EF862D59C44000F36318 /* KlatDownload.png in Resources */,
+				DFF8EF772D59C44000F36318 /* KlatCopy.png in Resources */,
+				DFF8EFEA2D59C44000F36318 /* KlatMemberListTableViewCell.xib in Resources */,
+				DFF8EF822D59C44000F36318 /* KlatDefaultPerson@3x.png in Resources */,
+				DFF8EFAE2D59C44000F36318 /* KlatRefresh@2x.png in Resources */,
+				DFF8EF6C2D59C44000F36318 /* KlatBanned@2x.png in Resources */,
+				DFF8EF852D59C44000F36318 /* KlatDelete@3x.png in Resources */,
+				DFF8EF652D59C44000F36318 /* KlatBack.png in Resources */,
+				DFF8EFA22D59C44000F36318 /* KlatPlus@2x.png in Resources */,
+				DFF8EFC22D59C44000F36318 /* KlatXMark.png in Resources */,
+				DFF8EF952D59C44000F36318 /* KlatNoMessage.png in Resources */,
+				DFF8EFAB2D59C44000F36318 /* KlatPushEnable@2x.png in Resources */,
+				DFF8EFB12D59C44000F36318 /* KlatRightArrow@2x.png in Resources */,
+				DFF8EF642D59C44000F36318 /* KlatAllChannels@3x.png in Resources */,
+				DFF8EF792D59C44000F36318 /* KlatCopy@3x.png in Resources */,
+				DFF8EF5B2D59C44000F36318 /* KlatAdd@3x.png in Resources */,
+				DFF8EF992D59C44000F36318 /* KlatNoSearchResult@2x.png in Resources */,
+				DFF8EF7A2D59C44000F36318 /* KlatDefaultChannelImage.png in Resources */,
+				DFF8EFB02D59C44000F36318 /* KlatRightArrow.png in Resources */,
+				DFF8EF922D59C44000F36318 /* KlatMyChannel.png in Resources */,
+				DFF8EF8B2D59C44000F36318 /* KlatError@3x.png in Resources */,
+				DFF8EFB82D59C44000F36318 /* KlatStepperMinus@3x.png in Resources */,
+				DFF8EF7C2D59C44000F36318 /* KlatDefaultChannelImage@3x.png in Resources */,
+				DFF8EF5C2D59C44000F36318 /* KlatAddChannel.png in Resources */,
+				DFF8EF5E2D59C44000F36318 /* KlatAddChannel@3x.png in Resources */,
+				DFF8EFB72D59C44000F36318 /* KlatStepperMinus@2x.png in Resources */,
+				DFF8EF5A2D59C44000F36318 /* KlatAdd@2x.png in Resources */,
+				DFF8EF742D59C44000F36318 /* KlatChannelInfo.png in Resources */,
+				DFF8EFBA2D59C44000F36318 /* KlatStepperPlus@2x.png in Resources */,
+				DFF8EF812D59C44000F36318 /* KlatDefaultPerson@2x.png in Resources */,
+				DFF8EF7E2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@2x.png in Resources */,
+				DFF8EFBF2D59C44000F36318 /* KlatUnMuted.png in Resources */,
+				DFF8EF9C2D59C44000F36318 /* KlatOwner@2x.png in Resources */,
+				DFF8EFB62D59C44000F36318 /* KlatStepperMinus.png in Resources */,
+				DFF8EF9F2D59C44000F36318 /* KlatPicture@2x.png in Resources */,
+				DFF8EFBD2D59C44000F36318 /* KlatUnBanned@2x.png in Resources */,
+				DFF8EFA32D59C44000F36318 /* KlatPlus@3x.png in Resources */,
+				DFF8EFC82D59C44000F36318 /* KlatAssets.xcassets in Resources */,
+				DFF8EF632D59C44000F36318 /* KlatAllChannels@2x.png in Resources */,
+				DFB2E5EE2CFD73D900CED074 /* Base in Resources */,
+				DFF8EFA42D59C44000F36318 /* KlatPrivateChat.png in Resources */,
+				DFB2E5E92CFD73D700CED074 /* Base in Resources */,
+				DFF8EFA92D59C44000F36318 /* KlatPushDisable@3x.png in Resources */,
+				DFF8EF972D59C44000F36318 /* KlatNoMessage@3x.png in Resources */,
+				DFF8EF722D59C44000F36318 /* KlatCameraWithAdd@2x.png in Resources */,
+				DFF8EF8A2D59C44000F36318 /* KlatError@2x.png in Resources */,
+				DFF8EFAA2D59C44000F36318 /* KlatPushEnable.png in Resources */,
+				DFF8EFC42D59C44000F36318 /* KlatXMark@3x.png in Resources */,
+				DFF8EF982D59C44000F36318 /* KlatNoSearchResult.png in Resources */,
+				DFF8EFB22D59C44000F36318 /* KlatRightArrow@3x.png in Resources */,
+				DFF8EFB42D59C44000F36318 /* KlatSearch@2x.png in Resources */,
+				DFF8EF802D59C44000F36318 /* KlatDefaultPerson.png in Resources */,
+				DFF8EFF42D59C44000F36318 /* KlatRestrictedListViewController.xib in Resources */,
+				DFF8EF6A2D59C44000F36318 /* KlatBackWithWhite@3x.png in Resources */,
+				DFF8EF892D59C44000F36318 /* KlatError.png in Resources */,
+				DFF8EFD92D59C44000F36318 /* KlatChatMessageViewController.xib in Resources */,
+				DFF8EF5F2D59C44000F36318 /* KlatAddImage.png in Resources */,
+				DFF8EF762D59C44000F36318 /* KlatChannelInfo@3x.png in Resources */,
+				DFF8EFD02D59C44000F36318 /* KlatChannelListViewController.xib in Resources */,
+				DFF8EF592D59C44000F36318 /* KlatAdd.png in Resources */,
+				DFF8EFA12D59C44000F36318 /* KlatPlus.png in Resources */,
+				DFF8EFAF2D59C44000F36318 /* KlatRefresh@3x.png in Resources */,
+				DFF8EF622D59C44000F36318 /* KlatAllChannels.png in Resources */,
+				DFF8EFC52D59C44000F36318 /* KlatXwithCircle.png in Resources */,
+				DFF8EF782D59C44000F36318 /* KlatCopy@2x.png in Resources */,
+				DFF8EFA82D59C44000F36318 /* KlatPushDisable@2x.png in Resources */,
+				DFF8EFEC2D59C44000F36318 /* KlatMemberListViewController.xib in Resources */,
+				DFF8EF8F2D59C44000F36318 /* KlatMuted.png in Resources */,
+				DFF8EFE02D59C44000F36318 /* KlatEditChannelViewController.xib in Resources */,
+				DFF8EF942D59C44000F36318 /* KlatMyChannel@3x.png in Resources */,
+				DFF8EF7F2D59C44000F36318 /* KlatDefaultChannelImageWithCamera@3x.png in Resources */,
+				DFF8EF872D59C44000F36318 /* KlatDownload@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB2E5DA2CFD73D700CED074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8EFCA2D59C44000F36318 /* KlatChannelActionViewController.swift in Sources */,
+				DFF8EFFA2D59C44000F36318 /* KlatBaseViewModel.swift in Sources */,
+				DFF8EF542D59C44000F36318 /* UIColor+Extension.swift in Sources */,
+				DFF8EF582D59C44000F36318 /* UIViewController+Extension.swift in Sources */,
+				DFF8EF522D59C44000F36318 /* Date+Extension.swift in Sources */,
+				DFF8EF532D59C44000F36318 /* TableView+Extension.swift in Sources */,
+				DFF8EFE22D59C44000F36318 /* KlatErrorViewController.swift in Sources */,
+				DFF8EFE62D59C44000F36318 /* KlatMemberInfoViewController.swift in Sources */,
+				DFF8EFE42D59C44000F36318 /* KlatImageViewerViewController.swift in Sources */,
+				DFF8EFD32D59C44000F36318 /* KlatMyChatMessageCell.swift in Sources */,
+				DFF8EFD12D59C44000F36318 /* KlatChannelListViewModel.swift in Sources */,
+				DFF8EF552D59C44000F36318 /* UIImage+Extension.swift in Sources */,
+				DFF8EFFB2D59C44000F36318 /* KlatError.swift in Sources */,
+				DFF8EF562D59C44000F36318 /* UITableViewCell+Extension.swift in Sources */,
+				DFF8EFC92D59C44000F36318 /* KlatChatAPIs.swift in Sources */,
+				DFF8EFFC2D59C44000F36318 /* KlatUIKitSDK.swift in Sources */,
+				DFD454882D06857400B92577 /* SignInViewController.swift in Sources */,
+				DFF8EFDB2D59C44000F36318 /* KlatCreateChannelViewController.swift in Sources */,
+				DFB2E5E62CFD73D700CED074 /* ViewController.swift in Sources */,
+				DFF8EFDA2D59C44000F36318 /* KlatChatMessageViewModel.swift in Sources */,
+				DFF8EFF32D59C44000F36318 /* KlatRestrictedListViewController.swift in Sources */,
+				DFF8EFE12D59C44000F36318 /* KlatEditChannelViewModel.swift in Sources */,
+				DFF8EFF92D59C44000F36318 /* KlatBaseViewController.swift in Sources */,
+				DFF8EFCC2D59C44000F36318 /* KlatChannelActionViewModel.swift in Sources */,
+				DFF8EFDE2D59C44000F36318 /* KlatCustomTextField.swift in Sources */,
+				DFF8EFF52D59C44000F36318 /* KlatRestrictedListViewModel.swift in Sources */,
+				DFB2E5E22CFD73D700CED074 /* AppDelegate.swift in Sources */,
+				DFF8EFDD2D59C44000F36318 /* KlatCreateChannelViewModel.swift in Sources */,
+				DFF8EFEB2D59C44000F36318 /* KlatMemberListViewController.swift in Sources */,
+				DFF8EFD22D59C44000F36318 /* KlatChatMessageProtocol.swift in Sources */,
+				DFF8EFF62D59C44000F36318 /* KlatSearchChannelViewController.swift in Sources */,
+				DFF8EF572D59C44000F36318 /* UIView+Extension.swift in Sources */,
+				DFF8EFEE2D59C44000F36318 /* KlatMessageActionViewController.swift in Sources */,
+				DFF8EFD62D59C44000F36318 /* KlatYourChatMessageCell.swift in Sources */,
+				DFF8EFED2D59C44000F36318 /* KlatMemberListViewModel.swift in Sources */,
+				DFF8EFCD2D59C44000F36318 /* KlatChannelListTableViewCell.swift in Sources */,
+				DFF8EFE82D59C44000F36318 /* KlatMemberInfoViewModel.swift in Sources */,
+				DFF8EFF82D59C44000F36318 /* KlatSearchChannelViewModel.swift in Sources */,
+				DFF8EFCF2D59C44000F36318 /* KlatChannelListViewController.swift in Sources */,
+				DFF8EFD82D59C44000F36318 /* KlatChatMessageViewController.swift in Sources */,
+				DFF8EFF02D59C44000F36318 /* KlatMessageActionViewModel.swift in Sources */,
+				DFF8EFE92D59C44000F36318 /* KlatMemberListTableViewCell.swift in Sources */,
+				DFF8EFF12D59C44000F36318 /* KlatRestrictedListTableViewCell.swift in Sources */,
+				DFF8EFDF2D59C44000F36318 /* KlatEditChannelViewController.swift in Sources */,
+				DFB2E5E42CFD73D700CED074 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFB2E5E72CFD73D700CED074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB2E5E82CFD73D700CED074 /* Base */,
+				271AEC052D31080600007055 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB2E5EC2CFD73D900CED074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB2E5ED2CFD73D900CED074 /* Base */,
+				271AEC062D31080600007055 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB2E5F02CFD73D900CED074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB2E5F12CFD73D900CED074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB2E5F32CFD73D900CED074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V6UAGM9A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KlatUIKitDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "앱에서 카메라를 사용하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진을 앨범에 저장하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앱에서 사진을 선택하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunez.KlatUIKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB2E5F42CFD73D900CED074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V6UAGM9A4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KlatUIKitDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "앱에서 카메라를 사용하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진을 앨범에 저장하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앱에서 사진을 선택하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunez.KlatUIKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB2E5D92CFD73D700CED074 /* Build configuration list for PBXProject "KlatUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2E5F02CFD73D900CED074 /* Debug */,
+				DFB2E5F12CFD73D900CED074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB2E5F22CFD73D900CED074 /* Build configuration list for PBXNativeTarget "KlatUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB2E5F32CFD73D900CED074 /* Debug */,
+				DFB2E5F42CFD73D900CED074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF5E9B3B2D5DDA2300E7AD14 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adxcorp/talkplus-ios-release";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF5E9B3C2D5DDA2300E7AD14 /* spm-talkplus-framework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF5E9B3B2D5DDA2300E7AD14 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */;
+			productName = "spm-talkplus-framework";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DFB2E5D62CFD73D700CED074 /* Project object */;
+}

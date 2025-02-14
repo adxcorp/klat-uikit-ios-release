@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KlatMemberInfoViewController" customModule="KlatUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="banImageView" destination="ySj-me-0aQ" id="uMs-vH-UjA"/>
+                <outlet property="banLabel" destination="cbC-Bc-T6m" id="fIy-Pw-eAm"/>
+                <outlet property="banStackView" destination="8bx-se-Vht" id="0g2-VS-St8"/>
+                <outlet property="closeButton" destination="4mT-Md-Ztq" id="3GB-3K-YVB"/>
+                <outlet property="containerView" destination="Ow7-aJ-vZR" id="bh6-9p-qeW"/>
+                <outlet property="contentHeight" destination="DL8-vG-CPH" id="gwJ-jb-daG"/>
+                <outlet property="memberNameLabel" destination="GiI-rB-DUJ" id="fsm-qh-gjw"/>
+                <outlet property="memberProfileImageView" destination="DuL-gK-RKn" id="pSr-tU-V9T"/>
+                <outlet property="muteUnmuteImageView" destination="YOi-cS-p4G" id="Mvg-Fi-k3E"/>
+                <outlet property="muteUnmuteLabel" destination="70r-pA-3gg" id="xAe-Uf-uHg"/>
+                <outlet property="muteUnmuteStackView" destination="dtn-QX-qu6" id="ebU-kE-dxB"/>
+                <outlet property="oneToOneChatImageView" destination="h3e-73-imh" id="sG6-kW-DY1"/>
+                <outlet property="oneToOneChatStackView" destination="igj-xf-sge" id="aeF-jd-pB9"/>
+                <outlet property="operatorImageView" destination="dPI-Du-WXR" id="w5L-vF-Z2H"/>
+                <outlet property="operatorLabel" destination="he3-3c-sPo" id="IHa-S8-QRP"/>
+                <outlet property="operatorStackView" destination="LnU-Sr-J0O" id="q1E-ZA-v1L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ow7-aJ-vZR" userLabel="ContainerView">
+                    <rect key="frame" x="24" y="228" width="345" height="396"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mT-Md-Ztq" userLabel="CloseButton">
+                            <rect key="frame" x="301" y="4" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="AV8-xh-YVY"/>
+                                <constraint firstAttribute="width" constant="40" id="E4J-ce-x4R"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="KlatXMark"/>
+                            <connections>
+                                <action selector="closeButtonTapped:" destination="-1" eventType="touchUpInside" id="51D-PI-3lK"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="spG-ab-EhW">
+                            <rect key="frame" x="112.66666666666666" y="47.999999999999986" width="120" height="220.66666666666663"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KlatDefaultPerson" translatesAutoresizingMaskIntoConstraints="NO" id="DuL-gK-RKn" userLabel="MemberProfileImageView">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="120" id="oHP-hm-Hbd"/>
+                                        <constraint firstAttribute="width" constant="120" id="r5g-sc-Q5o"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="멤버 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiI-rB-DUJ" userLabel="MeberName">
+                                    <rect key="frame" x="15.666666666666686" y="136" width="88.666666666666671" height="28.666666666666657"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="LnU-Sr-J0O" userLabel="OperatorStackView">
+                                    <rect key="frame" x="18" y="180.66666666666669" width="84" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KlatOwner" translatesAutoresizingMaskIntoConstraints="NO" id="dPI-Du-WXR" userLabel="OperatorImageView">
+                                            <rect key="frame" x="14" y="10" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="IvC-Bb-nc9"/>
+                                                <constraint firstAttribute="width" constant="20" id="kru-87-8LM"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="운영자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he3-3c-sPo" userLabel="OperatorLabel">
+                                            <rect key="frame" x="36" y="10" width="34" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <edgeInsets key="layoutMargins" top="10" left="14" bottom="10" right="14"/>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Skp-3F-DsY">
+                            <rect key="frame" x="44.666666666666686" y="292.66666666666663" width="256" height="92"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="igj-xf-sge" userLabel="PrivateChatStackView">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="92"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KlatPrivateChat" translatesAutoresizingMaskIntoConstraints="NO" id="h3e-73-imh" userLabel="PrivateChatImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="64" id="T5p-cA-Vwz"/>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="tmu-k8-SlD"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:1 채팅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdz-MA-pIy" userLabel="PrivateChatLabel">
+                                            <rect key="frame" x="8" y="74" width="47.666666666666664" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dtn-QX-qu6" userLabel="MuteUnmuteStackView">
+                                    <rect key="frame" x="95.999999999999986" y="0.0" width="64.000000000000014" height="92"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KlatUnMuted" translatesAutoresizingMaskIntoConstraints="NO" id="YOi-cS-p4G" userLabel="MuteUnmuteImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="Tp8-vf-RqQ"/>
+                                                <constraint firstAttribute="width" constant="64" id="qNk-8R-wqe"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="음소거" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70r-pA-3gg" userLabel="MuteUnmuteLabel">
+                                            <rect key="frame" x="12.333333333333343" y="74" width="39" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8bx-se-Vht" userLabel="BanStackView">
+                                    <rect key="frame" x="192" y="0.0" width="64" height="92"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KlatUnblocked" translatesAutoresizingMaskIntoConstraints="NO" id="ySj-me-0aQ" userLabel="BlockUnblockImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="64" id="eXt-L7-eOB"/>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="xNQ-E1-bw1"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="강제퇴장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbC-Bc-T6m" userLabel="BlockUnblockLabel">
+                                            <rect key="frame" x="6" y="74" width="52" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="spG-ab-EhW" firstAttribute="top" secondItem="Ow7-aJ-vZR" secondAttribute="top" constant="48" id="9gk-N7-Fea"/>
+                        <constraint firstAttribute="height" constant="396" id="DL8-vG-CPH"/>
+                        <constraint firstItem="Skp-3F-DsY" firstAttribute="centerX" secondItem="Ow7-aJ-vZR" secondAttribute="centerX" id="MeZ-S6-k9C"/>
+                        <constraint firstItem="Skp-3F-DsY" firstAttribute="top" secondItem="spG-ab-EhW" secondAttribute="bottom" constant="24" id="Yu5-am-0e3"/>
+                        <constraint firstAttribute="trailing" secondItem="4mT-Md-Ztq" secondAttribute="trailing" constant="4" id="iKK-As-72w"/>
+                        <constraint firstItem="4mT-Md-Ztq" firstAttribute="top" secondItem="Ow7-aJ-vZR" secondAttribute="top" constant="4" id="jMS-BW-gbc"/>
+                        <constraint firstItem="spG-ab-EhW" firstAttribute="centerX" secondItem="Ow7-aJ-vZR" secondAttribute="centerX" id="smA-jW-znD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Ow7-aJ-vZR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="TDP-Yi-hVe"/>
+                <constraint firstItem="Ow7-aJ-vZR" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ZQi-7X-mds"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ow7-aJ-vZR" secondAttribute="trailing" constant="24" id="gFQ-nd-FrN"/>
+                <constraint firstItem="Ow7-aJ-vZR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nfK-AF-sxA"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="KlatDefaultPerson" width="34" height="34"/>
+        <image name="KlatOwner" width="20.333333969116211" height="20"/>
+        <image name="KlatPrivateChat" width="64" height="64"/>
+        <image name="KlatUnMuted" width="64" height="64"/>
+        <image name="KlatUnblocked" width="64" height="64"/>
+        <image name="KlatXMark" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

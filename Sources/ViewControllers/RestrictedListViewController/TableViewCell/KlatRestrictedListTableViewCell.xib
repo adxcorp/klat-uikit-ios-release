@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="61" id="KGk-i7-Jjw" customClass="KlatRestrictedListTableViewCell" customModule="KlatUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="az3-fX-GfD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KlatDefaultPerson" translatesAutoresizingMaskIntoConstraints="NO" id="2uu-TX-fRU">
+                                <rect key="frame" x="24" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="P5N-cP-JAn"/>
+                                    <constraint firstAttribute="height" constant="40" id="Qxi-T9-6iD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYx-kv-jBV">
+                                <rect key="frame" x="74" y="18.333333333333336" width="42.666666666666657" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cku-6V-TN5" userLabel="EmptyView">
+                                <rect key="frame" x="126.66666666666667" y="8" width="169.33333333333331" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="C1m-Mp-WFt"/>
+                        </constraints>
+                        <edgeInsets key="layoutMargins" top="8" left="24" bottom="8" right="24"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="az3-fX-GfD" secondAttribute="trailing" id="c5c-ip-UVV"/>
+                    <constraint firstItem="az3-fX-GfD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="l9D-tA-juC"/>
+                    <constraint firstItem="az3-fX-GfD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="oqw-a9-59R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="memberNameLabel" destination="cYx-kv-jBV" id="G35-vR-PMn"/>
+                <outlet property="memberProfileImage" destination="2uu-TX-fRU" id="PHH-ys-HMP"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="5.9859154929577469"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="KlatDefaultPerson" width="34" height="34"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
