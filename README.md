@@ -75,8 +75,6 @@ Klat UIKit SDK는 카메라로 촬영된 사진 또는 앨범에 있는 사진�
     <string>$(PRODUCT_NAME) would like access to your photo library</string>
 <key>NSCameraUsageDescription</key>
     <string>$(PRODUCT_NAME) would like to use your camera</string>
-<key>NSMicrophoneUsageDescription</key>
-    <string>$(PRODUCT_NAME) would like to use your microphone (for videos)</string>
 <key>NSPhotoLibraryAddUsageDescription</key>
     <string>$(PRODUCT_NAME) would like to save photos to your photo library</string>
 ```
