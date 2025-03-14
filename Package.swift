@@ -20,7 +20,7 @@ let package = Package(
         .package(
             name: "spm-talkplus-framework",
             url: "https://github.com/adxcorp/talkplus-ios-release",
-            from: "1.0.1"
+            from: "1.0.2"
         )
     ],
     targets: [
