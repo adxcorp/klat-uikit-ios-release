@@ -23,48 +23,26 @@ extension UIColor {
         self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: 1.0)
     }
     
-    enum Button {
-        static let klatDefaultColor:UIColor = { UIColor.white }()
-    }
-
-    enum TableView {
-        static let klatDefaultColor:UIColor = { UIColor.black }()
+    static let klatPrimaryColor = UIColor.init(klatHexCode: "#00BFBF")
+    static let klatWhiteColor = UIColor.init(klatHexCode: "#FFFFFF")
+    static let klatDarkTealColor = UIColor.init(klatHexCode: "#436666")
+    static let klatLightMintColor = UIColor.init(klatHexCode: "#E9F7F6")
+    static let klatRedColor = UIColor.red
+    static let klatBrightRedColor = UIColor.init(klatHexCode: "#F53D3D")
+    static let klatVividBlueColor = UIColor.init(klatHexCode: "#5D81FF")
+    static let klatClearColor = UIColor.clear
+    
+    enum KlatBlackColors {
+        static let blackColor1:UIColor = UIColor.black
+        static let blackColor2:UIColor = { UIColor.init(klatHexCode: "#1C1B1F") }()
+        static let blackColor3:UIColor = { UIColor.init(klatHexCode: "#243333") }()
     }
     
-    enum TextField {
-        static let klatDefaultColor:UIColor = { UIColor.black }()
+    enum KlatGrayColors {
+        static let grayColor1:UIColor = { UIColor.init(klatHexCode: "#888888") }()
+        static let grayColor2:UIColor = { UIColor.init(klatHexCode: "#999999") }()
+        static let grayColor3:UIColor = { UIColor.init(klatHexCode: "#F3F3F3") }()
+        static let grayColor4:UIColor = { UIColor.init(klatHexCode: "#EEEEEE") }()
     }
     
-    enum Label {
-        static let klatDefaultColor:UIColor = { UIColor.black }()
-        static let klatTextGrayColor1:UIColor = { UIColor.init(klatHexCode: "#888888") }()
-        static let klatTextGrayColor2:UIColor = { UIColor.init(klatHexCode: "#436666") }()
-        static let klatTextGrayColor3:UIColor = { UIColor.init(klatHexCode: "#999999") }()
-        static let klatTextWhiteColor:UIColor = { UIColor.init(klatHexCode: "#FFFFFF") }()
-        static let klatTextBlackColor1:UIColor = { UIColor.init(klatHexCode: "#1C1B1F") }()
-        static let klatTextBlackColor2:UIColor = { UIColor.init(klatHexCode: "#243333") }()
-    }
-    
-    enum TableViewCell {
-        static let klatDefaultColor:UIColor = { UIColor.black }()
-    }
-    
-    enum Background {
-        static let klatDefaultColor:UIColor = { UIColor.init(klatHexCode: "#00BFBF") }()
-        static let buttonColor:UIColor = { UIColor.init(klatHexCode: "#00BFBF") }()
-        static let layerGrayColor1:UIColor = { UIColor.init(klatHexCode: "#888888") }()
-        static let layerGrayColor2:UIColor = { UIColor.init(klatHexCode: "#EEEEEE") }()
-        static let textFieldColor:UIColor = { UIColor.init(klatHexCode: "#F3F3F3") }()
-        static let containerColor1:UIColor = { UIColor.init(klatHexCode: "#EEEEEE") }()
-        static let containerColor2:UIColor = { UIColor.init(klatHexCode: "#00BFBF") }()
-        static let containerColor3:UIColor = { UIColor.init(klatHexCode: "#E9F7F6") }()
-    }
-    
-    enum Border {
-        static let klatDefaultColor:UIColor = { UIColor.init(klatHexCode: "#EEEEEE") }()
-    }
-    
-    enum UIView {
-        static let klatDefaultColor:UIColor = { UIColor.init(klatHexCode: "#00BFBF") }()
-    }
 }

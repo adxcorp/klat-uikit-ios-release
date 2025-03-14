@@ -19,7 +19,7 @@ class KlatMemberInfoViewController: KlatBaseViewController {
         didSet {
             operatorStackView.layer.cornerRadius = 20
             operatorStackView.layer.borderWidth = 1
-            operatorStackView.layer.borderColor = UIColor.Background.layerGrayColor2.cgColor
+            operatorStackView.layer.borderColor = UIColor.KlatGrayColors.grayColor4.cgColor
             operatorStackView.clipsToBounds = true
             let gesture = UITapGestureRecognizer(target: self, action: #selector(operatorStackViewTapped))
             operatorStackView.addGestureRecognizer(gesture)
@@ -43,7 +43,7 @@ class KlatMemberInfoViewController: KlatBaseViewController {
             memberProfileImageView.layer.cornerRadius = self.memberProfileImageView.frame.width / 2
             memberProfileImageView.contentMode = .scaleAspectFit
             memberProfileImageView.layer.borderWidth = 0.1
-            memberProfileImageView.layer.borderColor = UIColor.Background.layerGrayColor1.cgColor
+            memberProfileImageView.layer.borderColor = UIColor.KlatGrayColors.grayColor1.cgColor
         }
     }
     @IBOutlet weak var memberNameLabel: UILabel!
@@ -72,7 +72,7 @@ class KlatMemberInfoViewController: KlatBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        view.backgroundColor = UIColor.KlatBlackColors.blackColor1.withAlphaComponent(0.5)
         containerView.layer.cornerRadius = 12
         
         setupViewModel()
@@ -279,7 +279,7 @@ class KlatMemberInfoViewController: KlatBaseViewController {
         alert.addAction(muteAction)
         alert.addAction(cancelAction)
         if let muteButton = alert.actions.first(where: { $0.title == "음소거" }) {
-            muteButton.setValue(UIColor.red, forKey: "titleTextColor")
+            muteButton.setValue(UIColor.klatRedColor, forKey: "titleTextColor")
         }
         present(alert, animated: true, completion: nil)
     }
@@ -297,7 +297,7 @@ class KlatMemberInfoViewController: KlatBaseViewController {
         alert.addAction(banAction)
         alert.addAction(cancelAction)
         if let banButton = alert.actions.first(where: { $0.title == "강퇴" }) {
-            banButton.setValue(UIColor.red, forKey: "titleTextColor")
+            banButton.setValue(UIColor.klatRedColor, forKey: "titleTextColor")
         }
         present(alert, animated: true, completion: nil)
     }

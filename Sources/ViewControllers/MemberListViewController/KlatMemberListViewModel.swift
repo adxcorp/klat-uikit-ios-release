@@ -35,14 +35,18 @@ open class KlatMemberListViewModel: KlatBaseViewModel {
     override func klatMemberBanned(channel:TPChannel, members:[TPMember]) {
         channelMemberUpdate(channel: channel)
     }
-    
     override func klatChannelChanged(channel: TPChannel) {
         channelMemberUpdate(channel: channel)
     }
     private func channelMemberUpdate(channel: TPChannel) {
         guard let chatChannel = self.channel else { return }
         guard chatChannel.getId() == channel.getId() else { return }
-        guard let members = channel.getMembers() as? [TPMember] else { return }
+        guard var members = channel.getMembers() as? [TPMember] else { return }
+        let loginUser = KlatChatAPIs.shared.loginUser
+        if let index = members.firstIndex(where: { $0.getId() == loginUser?.getId()}), index != 0 {
+            let member = members.remove(at: index)
+            members.insert(member, at: 0)
+        }
         self.members = members
         self.channel = channel
         DispatchQueue.main.async { [weak self] in

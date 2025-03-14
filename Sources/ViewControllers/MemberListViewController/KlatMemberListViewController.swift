@@ -54,7 +54,7 @@ class KlatMemberListViewController: KlatBaseViewController {
         if let navigationBar = navigationController?.navigationBar {
             let appearance = UINavigationBarAppearance()
             appearance.configureWithTransparentBackground()
-            appearance.backgroundColor = .clear
+            appearance.backgroundColor = UIColor.klatClearColor
             appearance.shadowColor = nil
             navigationBar.standardAppearance = appearance
             navigationBar.scrollEdgeAppearance = appearance
@@ -70,7 +70,7 @@ class KlatMemberListViewController: KlatBaseViewController {
         backButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
         // BarButtonItem
         let barButtonItem = UIBarButtonItem(customView: backButton)
-        barButtonItem.tintColor = .black
+        barButtonItem.tintColor = UIColor.KlatBlackColors.blackColor1
         return barButtonItem
     }()
 

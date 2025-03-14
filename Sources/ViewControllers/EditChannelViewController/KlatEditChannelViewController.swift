@@ -12,14 +12,14 @@ class KlatEditChannelViewController: KlatBaseViewController {
     
     @IBOutlet weak var channelNameCountLabel: UILabel! {
         didSet {
-            channelNameCountLabel.textColor = .lightGray
+            channelNameCountLabel.textColor = UIColor.KlatGrayColors.grayColor2
         }
     }
     @IBOutlet weak var channelImageView: UIImageView! {
         didSet {
             channelImageView.layer.cornerRadius = channelImageView.frame.height / 2
             channelImageView.layer.borderWidth = 1
-            channelImageView.layer.borderColor = UIColor.Background.layerGrayColor2.cgColor
+            channelImageView.layer.borderColor = UIColor.KlatGrayColors.grayColor4.cgColor
             channelImageView.clipsToBounds = true
             channelImageView.isUserInteractionEnabled = true
         }
@@ -32,7 +32,7 @@ class KlatEditChannelViewController: KlatBaseViewController {
     }
     @IBOutlet weak var channelNameTextField: KlatCustomTextField! {
         didSet {
-            channelNameTextField.backgroundColor = UIColor.Background.textFieldColor
+            channelNameTextField.backgroundColor = UIColor.KlatGrayColors.grayColor3
             channelNameTextField.layer.cornerRadius = 10
             channelNameTextField.delegate = self
         }
@@ -120,7 +120,7 @@ class KlatEditChannelViewController: KlatBaseViewController {
         if let navigationBar = navigationController?.navigationBar {
             let appearance = UINavigationBarAppearance()
             appearance.configureWithTransparentBackground()
-            appearance.backgroundColor = .clear
+            appearance.backgroundColor = UIColor.klatClearColor
             appearance.shadowColor = nil
             navigationBar.standardAppearance = appearance
             navigationBar.scrollEdgeAppearance = appearance
@@ -136,7 +136,7 @@ class KlatEditChannelViewController: KlatBaseViewController {
         backButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
         // BarButtonItem
         let barButtonItem = UIBarButtonItem(customView: backButton)
-        barButtonItem.tintColor = .black
+        barButtonItem.tintColor = UIColor.KlatBlackColors.blackColor1
         return barButtonItem
     }()
     

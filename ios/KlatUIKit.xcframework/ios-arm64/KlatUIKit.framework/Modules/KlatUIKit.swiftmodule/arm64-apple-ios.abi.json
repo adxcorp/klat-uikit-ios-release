@@ -5088,1652 +5088,1617 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 686,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 739,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 880,
+      "offset": 879,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1419,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1631,
+      "offset": 1630,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1753,
+      "offset": 1752,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2059,
+      "offset": 2057,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2390,
+      "offset": 2388,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2703,
+      "offset": 2701,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 223,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 536,
+      "offset": 559,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
+      "offset": 610,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 726,
+      "offset": 748,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 787,
+      "offset": 809,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "StringLiteral",
-      "offset": 916,
+      "offset": 938,
       "length": 20,
       "value": "\"KlatCameraWithPlus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1270,
+      "offset": 1292,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 1468,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5155,
+      "offset": 5193,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5161,
+      "offset": 5199,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5171,
+      "offset": 5209,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5183,
+      "offset": 5221,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/EditChannelViewController\/KlatEditChannelViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5226,
+      "offset": 5264,
       "length": 11,
       "value": "\"KlatXMark\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 185,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3355,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3361,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3371,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3383,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "StringLiteral",
       "offset": 3426,
       "length": 10,
       "value": "\"KlatBack\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "StringLiteral",
       "offset": 3724,
       "length": 8,
       "value": "\"채널\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3900,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4210,
+      "offset": 4239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4216,
+      "offset": 4245,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4226,
+      "offset": 4255,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4238,
+      "offset": 4267,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4283,
+      "offset": 4312,
       "length": 12,
       "value": "\"KlatSearch\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4669,
+      "offset": 4698,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4675,
+      "offset": 4704,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4685,
+      "offset": 4714,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4697,
+      "offset": 4726,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4739,
+      "offset": 4768,
       "length": 16,
       "value": "\"KlatAddChannel\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/KlatChannelListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5234,
+      "offset": 5263,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 595,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 645,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ErrorViewController\/KlatErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 783,
+      "offset": 785,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2927,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2978,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6256,
+      "offset": 6271,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6262,
+      "offset": 6277,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6272,
+      "offset": 6287,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6284,
+      "offset": 6299,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelActionViewController\/KlatChannelActionViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6327,
+      "offset": 6342,
       "length": 11,
       "value": "\"KlatXMark\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 209,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2230,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2236,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2246,
-      "length": 2,
-      "value": "24"
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2258,
+      "offset": 2252,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2262,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2274,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2317,
       "length": 11,
       "value": "\"KlatXMark\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2279,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2285,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2295,
-      "length": 2,
-      "value": "24"
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2307,
+      "offset": 2301,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2311,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2323,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2366,
       "length": 11,
       "value": "\"KlatXMark\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36491,
       "length": 22,
       "value": "\"klat_messageReceived\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36570,
       "length": 21,
       "value": "\"klat_messageDeleted\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36650,
       "length": 18,
       "value": "\"klat_memberAdded\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36721,
       "length": 17,
       "value": "\"klat_memberLeft\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36793,
       "length": 19,
       "value": "\"klat_memberBanned\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36869,
       "length": 21,
       "value": "\"klat_memberUnbanned\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 36950,
       "length": 19,
       "value": "\"klat_channelAdded\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37026,
       "length": 21,
       "value": "\"klat_channelChanged\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37104,
       "length": 21,
       "value": "\"klat_channelRemoved\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37190,
       "length": 24,
       "value": "\"klat_publicMemberAdded\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37273,
       "length": 23,
       "value": "\"klat_publicMemberLeft\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37357,
       "length": 25,
       "value": "\"klat_publicMemberBanned\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37445,
       "length": 27,
       "value": "\"klat_publicMemberUnbanned\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37538,
       "length": 25,
       "value": "\"klat_publicChannelAdded\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37626,
       "length": 27,
       "value": "\"klat_publicChannelChanged\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37716,
       "length": 27,
       "value": "\"klat_publicChannelRemoved\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37812,
       "length": 28,
       "value": "\"klat_moveToOnetoOneChannel\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/KlatChatAPIs\/KlatChatAPIs.swift",
       "kind": "StringLiteral",
       "offset": 37898,
       "length": 22,
       "value": "\"klat_reactionUpdated\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/TableViewCell\/KlatChannelListTableViewCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/TableViewCell\/KlatChannelListTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 525,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/TableViewCell\/KlatChannelListTableViewCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/TableViewCell\/KlatChannelListTableViewCell.swift",
       "kind": "FloatLiteral",
       "offset": 587,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChannelListViewController\/TableViewCell\/KlatChannelListTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 4672,
-      "length": 9,
-      "value": "\"#00BFBF\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
       "kind": "FloatLiteral",
       "offset": 102,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1406,
+      "offset": 1020,
       "length": 9,
-      "value": "\"#888888\""
+      "value": "\"#00BFBF\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1497,
-      "length": 9,
-      "value": "\"#436666\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 1588,
-      "length": 9,
-      "value": "\"#999999\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1089,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1771,
+      "offset": 1161,
       "length": 9,
-      "value": "\"#1C1B1F\""
+      "value": "\"#436666\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
-      "length": 9,
-      "value": "\"#243333\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2087,
-      "length": 9,
-      "value": "\"#00BFBF\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2171,
-      "length": 9,
-      "value": "\"#00BFBF\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2259,
-      "length": 9,
-      "value": "\"#888888\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2347,
-      "length": 9,
-      "value": "\"#EEEEEE\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2434,
-      "length": 9,
-      "value": "\"#F3F3F3\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2522,
-      "length": 9,
-      "value": "\"#EEEEEE\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2610,
-      "length": 9,
-      "value": "\"#00BFBF\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2698,
+      "offset": 1234,
       "length": 9,
       "value": "\"#E9F7F6\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 1349,
+      "length": 9,
+      "value": "\"#F53D3D\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 9,
+      "value": "\"#5D81FF\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 9,
+      "value": "\"#1C1B1F\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 9,
+      "value": "\"#243333\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1839,
+      "length": 9,
+      "value": "\"#888888\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1922,
+      "length": 9,
+      "value": "\"#999999\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2005,
+      "length": 9,
+      "value": "\"#F3F3F3\""
+    },
+    {
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2088,
       "length": 9,
       "value": "\"#EEEEEE\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UIColor+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2934,
-      "length": 9,
-      "value": "\"#00BFBF\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/TableViewCell\/KlatMemberListTableViewCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/TableViewCell\/KlatMemberListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/TableViewCell\/KlatMemberListTableViewCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/TableViewCell\/KlatMemberListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/TableViewCell\/KlatMemberListTableViewCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/TableViewCell\/KlatMemberListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 483,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberInfoViewController\/KlatMemberInfoViewModel.swift",
       "kind": "Array",
       "offset": 230,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "Array",
       "offset": 315,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 1226,
       "length": 18,
       "value": "\"채널 검색...\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1487,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1493,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1503,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1515,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/SearchChannelViewController\/KlatSearchChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 10,
       "value": "\"KlatBack\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewModel.swift",
       "kind": "Array",
       "offset": 437,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 515,
       "length": 3,
       "value": "338"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1667,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12932,
+      "offset": 12972,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12938,
+      "offset": 12978,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12948,
+      "offset": 12988,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12960,
+      "offset": 13000,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13005,
+      "offset": 13045,
       "length": 10,
       "value": "\"KlatBack\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13442,
+      "offset": 13482,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13448,
+      "offset": 13488,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13458,
+      "offset": 13498,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13470,
+      "offset": 13510,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/KlatChatMessageViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13515,
+      "offset": 13555,
       "length": 17,
       "value": "\"KlatChannelInfo\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1122,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1208,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1254,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1468,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1522,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1780,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "StringLiteral",
       "offset": 1902,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "StringLiteral",
       "offset": 2072,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2175,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "StringLiteral",
       "offset": 2301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MessageActionViewController\/KlatMessageActionViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2371,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 18,
       "value": "\"KlatStepperMinus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 808,
       "length": 17,
       "value": "\"KlatStepperPlus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "StringLiteral",
       "offset": 919,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3516,
+      "offset": 3524,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3522,
+      "offset": 3530,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3532,
+      "offset": 3540,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3544,
+      "offset": 3552,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/CreateChannelViewController\/KlatCreateChannelViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3587,
+      "offset": 3595,
       "length": 11,
       "value": "\"KlatXMark\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 515,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/KlatRestrictedListViewModel.swift",
       "kind": "Array",
       "offset": 268,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "StringLiteral",
       "offset": 88,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "StringLiteral",
       "offset": 114,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "Array",
       "offset": 1255,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 8,
       "value": "\"super_\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1536,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1749,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1842,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "Dictionary",
       "offset": 1325,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 3342,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/KlatBaseViewModel.swift",
       "kind": "FloatLiteral",
       "offset": 3790,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 547,
+      "offset": 546,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 683,
+      "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1005,
+      "offset": 1033,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1057,
+      "offset": 1085,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatYourChatMessageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1105,
+      "offset": 1133,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
       "kind": "IntegerLiteral",
       "offset": 144,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 641,
+      "offset": 631,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 777,
+      "offset": 767,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1023,
+      "offset": 1003,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1075,
+      "offset": 1055,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ChatMessageViewController\/TableViewCell\/KlatMyChatMessageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1123,
+      "offset": 1103,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "Array",
       "offset": 205,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 454,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 587,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 998,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/Extensions\/UITableViewCell+Extension.swift",
       "kind": "IntegerLiteral",
       "offset": 1052,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/TableViewCell\/KlatRestrictedListTableViewCell.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/RestrictedListViewController\/TableViewCell\/KlatRestrictedListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 373,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 419,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "FloatLiteral",
       "offset": 465,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 523,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 585,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2918,
+      "offset": 2925,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2924,
+      "offset": 2931,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2934,
+      "offset": 2941,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2946,
+      "offset": 2953,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 2998,
       "length": 19,
       "value": "\"KlatBackWithWhite\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3420,
+      "offset": 3427,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3426,
+      "offset": 3433,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3443,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3448,
+      "offset": 3455,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/ImageViewerViewController\/KlatImageViewerViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3493,
+      "offset": 3500,
       "length": 14,
       "value": "\"KlatDownload\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/talkplus\/uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewModel.swift",
+      "filePath": "\/Users\/jclee\/workspace\/talkplus_uikit\/klat-uikit-ios\/klat-uikit-ios\/Sources\/ViewControllers\/MemberListViewController\/KlatMemberListViewModel.swift",
       "kind": "Array",
       "offset": 166,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 9,
       "value": "\"KlatAdd\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 16,
       "value": "\"KlatAddChannel\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 17,
       "value": "\"KlatAllChannels\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 10,
       "value": "\"KlatBack\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1327,
       "length": 19,
       "value": "\"KlatBackWithWhite\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1478,
       "length": 13,
       "value": "\"KlatBlocked\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 12,
       "value": "\"KlatCamera\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1777,
       "length": 19,
       "value": "\"KlatCameraWithAdd\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1942,
       "length": 20,
       "value": "\"KlatCameraWithPlus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2102,
       "length": 17,
       "value": "\"KlatChannelInfo\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2245,
       "length": 10,
       "value": "\"KlatCopy\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2406,
       "length": 25,
       "value": "\"KlatDefaultChannelImage\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2607,
       "length": 35,
       "value": "\"KlatDefaultChannelImageWithCamera\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2786,
       "length": 19,
       "value": "\"KlatDefaultPerson\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2935,
       "length": 12,
       "value": "\"KlatDelete\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3081,
       "length": 14,
       "value": "\"KlatDownload\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3223,
       "length": 11,
       "value": "\"KlatError\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3360,
       "length": 10,
       "value": "\"KlatFile\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3498,
       "length": 11,
       "value": "\"KlatMuted\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3645,
       "length": 15,
       "value": "\"KlatMyChannel\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3796,
       "length": 15,
       "value": "\"KlatNoMessage\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3957,
       "length": 20,
       "value": "\"KlatNoSearchResult\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4105,
       "length": 11,
       "value": "\"KlatOwner\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4248,
       "length": 13,
       "value": "\"KlatPicture\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4387,
       "length": 10,
       "value": "\"KlatPlus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4537,
       "length": 17,
       "value": "\"KlatPrivateChat\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4694,
       "length": 17,
       "value": "\"KlatPushDisable\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4849,
       "length": 16,
       "value": "\"KlatPushEnable\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4997,
       "length": 13,
       "value": "\"KlatRefresh\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5148,
       "length": 16,
       "value": "\"KlatRightArrow\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5294,
       "length": 12,
       "value": "\"KlatSearch\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5444,
       "length": 16,
       "value": "\"KlatSendMesage\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5602,
       "length": 18,
       "value": "\"KlatStepperMinus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5760,
       "length": 17,
       "value": "\"KlatStepperPlus\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5909,
       "length": 13,
       "value": "\"KlatUnMuted\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6058,
       "length": 15,
       "value": "\"KlatUnblocked\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6201,
       "length": 11,
       "value": "\"KlatXMark\""
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-bzlmqqqtqjhoedcdbcfeognzjhhx\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/jclee\/Library\/Developer\/Xcode\/DerivedData\/KlatUIKit-cjvogxulhqqagjcsaoigcdmlphwl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KlatUIKit\/IntermediateBuildFilesPath\/KlatUIKit.build\/Release-iphoneos\/KlatUIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6352,
       "length": 17,

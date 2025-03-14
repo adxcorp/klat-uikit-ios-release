@@ -104,7 +104,7 @@ import TalkPlus
         stackView.spacing = 24
         // BarButtonItem
         let barButtonItem = UIBarButtonItem(customView: stackView)
-        barButtonItem.tintColor = .black
+        barButtonItem.tintColor = UIColor.KlatBlackColors.blackColor1
         return barButtonItem
     }()
     
@@ -133,13 +133,13 @@ import TalkPlus
         stackView.spacing = 24
         // BarButtonItem
         let barButtonItem = UIBarButtonItem(customView: stackView)
-        barButtonItem.tintColor = .black
+        barButtonItem.tintColor = UIColor.KlatBlackColors.blackColor1
         return barButtonItem
     }()
     
     private func setupNavigationBarAndItem() {
         // Back Button Image
-        navigationController?.navigationBar.tintColor = .black
+        navigationController?.navigationBar.tintColor = UIColor.KlatBlackColors.blackColor1
         let backImage = UIImage(named: "KlatBack", in: Bundle(for: type(of: self)), compatibleWith:nil)
         navigationController?.navigationBar.backIndicatorImage = backImage
         navigationController?.navigationBar.backIndicatorTransitionMaskImage = backImage
@@ -192,7 +192,7 @@ import TalkPlus
             guard let self else { return }
             leaveChatChannel(channel: channel)
         }
-        leaveAction.setValue(UIColor.red, forKey: "titleTextColor")
+        leaveAction.setValue(UIColor.klatRedColor, forKey: "titleTextColor")
         alertController.addAction(leaveAction)
         
         present(alertController, animated: true)
@@ -259,7 +259,7 @@ extension KlatChannelListViewController: UITableViewDelegate, UITableViewDataSou
             }
             completionHandler(true)
         }
-        leaveAction.backgroundColor = UIColor.init(klatHexCode: "F53D3D")
+        leaveAction.backgroundColor = UIColor.klatBrightRedColor
         
         // Action: Mark as a read
         let readAction = UIContextualAction(style: .normal, title: "읽음") { [weak self] _, _, completionHandler in
@@ -272,7 +272,7 @@ extension KlatChannelListViewController: UITableViewDelegate, UITableViewDataSou
             }
             completionHandler(true)
         }
-        readAction.backgroundColor = UIColor.init(klatHexCode: "5D81FF")
+        readAction.backgroundColor = UIColor.klatVividBlueColor
 
         let configuration = UISwipeActionsConfiguration(actions: [leaveAction, readAction])
         configuration.performsFirstActionWithFullSwipe = false

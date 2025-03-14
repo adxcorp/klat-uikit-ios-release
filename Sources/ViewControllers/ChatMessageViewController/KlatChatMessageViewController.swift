@@ -73,10 +73,10 @@ public class KlatChatMessageViewController: KlatBaseViewController {
     
     private func setupChannelInfoContainer() {
         channelInfoUpperLabel.text = "운영자가 채널을 얼렸습니다."
-        channelInfoUpperLabel.textColor = UIColor.Label.klatTextBlackColor2
+        channelInfoUpperLabel.textColor = UIColor.KlatBlackColors.blackColor3
         channelInfoLowerLabel.text = "운영자를 제외한 사용자는 메시지를 입력할 수 없습니다."
-        channelInfoLowerLabel.textColor = UIColor.Label.klatTextGrayColor2
-        channelInfoContainer.backgroundColor = UIColor.Background.containerColor3
+        channelInfoLowerLabel.textColor = UIColor.klatDarkTealColor
+        channelInfoContainer.backgroundColor = UIColor.klatLightMintColor
         channelInfoContainer.layer.cornerRadius = 8
         channelInfoStackViewHeight.onConstantChanged = { [weak self] newValue in
             guard let self = self else { return }
@@ -120,14 +120,14 @@ public class KlatChatMessageViewController: KlatBaseViewController {
         sendFileButton.setImage(image, for: .normal)
         sendFileButton.addTarget(self, action: #selector(sendFileButtonClicked), for: .touchUpInside)
         // Message Input TextView
-        messageInputTextView.backgroundColor = UIColor.Background.textFieldColor
-        messageInputTextView.textColor = .black
+        messageInputTextView.backgroundColor = UIColor.KlatGrayColors.grayColor3
+        messageInputTextView.textColor = UIColor.KlatBlackColors.blackColor1
         messageInputTextView.layer.cornerRadius = 10
         messageInputTextView.delegate = self
         // Place Holder
         placeholderLabel.text = "메시지 입력"
         placeholderLabel.font = UIFont.systemFont(ofSize: 16)
-        placeholderLabel.textColor = UIColor.lightGray
+        placeholderLabel.textColor = UIColor.KlatGrayColors.grayColor2
         placeholderLabel.frame = CGRect(x: 5, y: 8, width: messageInputTextView.frame.width - 10, height: 20)
         messageInputTextView.addSubview(placeholderLabel)
         // Send Message Button
@@ -136,7 +136,7 @@ public class KlatChatMessageViewController: KlatBaseViewController {
         sendTextMessageButton.setImage(image, for: .normal)
         sendTextMessageButton.layer.cornerRadius = 15
         sendTextMessageButton.addTarget(self, action: #selector(sendChatMessage), for: .touchUpInside)
-        sendTextMessageButton.backgroundColor = UIColor.Background.klatDefaultColor
+        sendTextMessageButton.backgroundColor = UIColor.klatPrimaryColor
         sendTextMessageButton.isHidden = true
     }
     
@@ -146,15 +146,15 @@ public class KlatChatMessageViewController: KlatBaseViewController {
         var image = UIImage(named: "KlatCamera", in: Bundle(for: type(of: self)), compatibleWith:nil)
         cameraButton.setImage(image, for: .normal)
         cameraButton.addTarget(self, action: #selector(cameraButtonClicked), for: .touchUpInside)
-        cameraLabel.textColor = UIColor.Label.klatTextBlackColor1
+        cameraLabel.textColor = UIColor.KlatBlackColors.blackColor2
         // Album Button
         albumButton.setTitle("", for: .normal)
         image = UIImage(named: "KlatPicture", in: Bundle(for: type(of: self)), compatibleWith:nil)
         albumButton.setImage(image, for: .normal)
         albumButton.addTarget(self, action: #selector(albumButtonClicked), for: .touchUpInside)
-        albumLabel.textColor = UIColor.Label.klatTextBlackColor1
+        albumLabel.textColor = UIColor.KlatBlackColors.blackColor2
         // Container View
-        sendFileContainerView.backgroundColor = UIColor.Background.containerColor1
+        sendFileContainerView.backgroundColor = UIColor.KlatGrayColors.grayColor4
         sendFileContainerView.isHidden = true
         // Container Height
         sendFileContainerHeight.onConstantChanged = { [weak self] newValue in
@@ -257,7 +257,7 @@ public class KlatChatMessageViewController: KlatBaseViewController {
     private func setupNavigationBarAndItem() {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.navigationBar.barTintColor = .clear
+        navigationController?.navigationBar.barTintColor = UIColor.klatClearColor
         navigationItem.hidesBackButton = true
         if let navigationController = self.navigationController,
            let index = navigationController.viewControllers.firstIndex(of: self), index != 0 {
@@ -346,7 +346,7 @@ public class KlatChatMessageViewController: KlatBaseViewController {
         alert.addAction(cancelAction)
         
         if let deleteButton = alert.actions.first(where: { $0.title == "삭제" }) {
-            deleteButton.setValue(UIColor.red, forKey: "titleTextColor")
+            deleteButton.setValue(UIColor.klatRedColor, forKey: "titleTextColor")
         }
         
         present(alert, animated: true, completion: nil)
@@ -700,6 +700,7 @@ extension KlatChatMessageViewController {
         }
         
         if let params = params, params.filePath.count > 0 {
+            params.textMessage = "사진을 보냈습니다."
             sendChatMessageToChannel(params: params)
             changeSendFileContainerHeight()
         }

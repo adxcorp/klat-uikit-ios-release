@@ -46,7 +46,7 @@ class KlatImageViewerViewController: KlatBaseViewController {
         nameLabel.text = userName
         nameLabel.font = .systemFont(ofSize: 16)
         nameLabel.textAlignment = .center
-        nameLabel.textColor = UIColor.Label.klatTextWhiteColor
+        nameLabel.textColor = UIColor.klatWhiteColor
         // Time Label
         let date = Date(milliseconds: message.getCreatedAt())
         let formatter = DateFormatter()
@@ -56,7 +56,7 @@ class KlatImageViewerViewController: KlatBaseViewController {
         timeLabel.text = formattedDate
         timeLabel.textAlignment = .center
         timeLabel.font = .systemFont(ofSize: 13)
-        timeLabel.textColor = UIColor.Label.klatTextGrayColor3
+        timeLabel.textColor = UIColor.KlatGrayColors.grayColor2
         // StackView
         let stackView = UIStackView(arrangedSubviews: [nameLabel, timeLabel])
         stackView.axis = .vertical
@@ -69,7 +69,7 @@ class KlatImageViewerViewController: KlatBaseViewController {
     private func setupNavigationBarAndItem() {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.navigationBar.barTintColor = .clear
+        navigationController?.navigationBar.barTintColor = UIColor.klatClearColor
         navigationItem.leftBarButtonItem = leftBarButton
         navigationItem.rightBarButtonItem = rightBarButton
     }

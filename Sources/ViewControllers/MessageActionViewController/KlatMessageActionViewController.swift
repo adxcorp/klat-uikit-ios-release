@@ -113,7 +113,7 @@ class KlatMessageActionViewController: KlatBaseViewController {
     }
     
     private func setupRootView() {
-        view.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        view.backgroundColor = UIColor.KlatBlackColors.blackColor1.withAlphaComponent(0.5)
         view.layer.cornerRadius = 10
     }
     
@@ -129,7 +129,7 @@ class KlatMessageActionViewController: KlatBaseViewController {
             if let targetView = self.view.viewWithTag(tag) as? UIImageView {
                 if let image = fromEmoji(emojis[tag]!, size: 20.0) {
                     targetView.image = image
-                    targetView.backgroundColor = .white
+                    targetView.backgroundColor = UIColor.klatWhiteColor
                     targetView.layer.cornerRadius = 9
                     targetView.contentMode = .center
                     targetView.isUserInteractionEnabled = true

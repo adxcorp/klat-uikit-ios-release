@@ -12,7 +12,7 @@ class KlatMyChatMessageCell: UITableViewCell, KlatChatMessageProtocol {
     
     @IBOutlet weak var chatMessageContainer: UIStackView! {
         didSet {
-            chatMessageContainer.backgroundColor = UIColor.Background.containerColor2
+            chatMessageContainer.backgroundColor = UIColor.klatPrimaryColor
             let gesture = UITapGestureRecognizer(target: self, action: #selector(chatMessageTapped))
             chatMessageContainer.addGestureRecognizer(gesture)
             chatMessageContainer.isUserInteractionEnabled = false
@@ -21,7 +21,7 @@ class KlatMyChatMessageCell: UITableViewCell, KlatChatMessageProtocol {
     @IBOutlet weak var chatMessageLabel: UILabel! {
         didSet {
             chatMessageLabel.numberOfLines = 0
-            chatMessageLabel.textColor = UIColor.Label.klatTextWhiteColor
+            chatMessageLabel.textColor = UIColor.klatWhiteColor
         }
     }
     @IBOutlet weak var imageMessageView: UIImageView!
@@ -50,7 +50,7 @@ class KlatMyChatMessageCell: UITableViewCell, KlatChatMessageProtocol {
     override func prepareForReuse() {
         super.prepareForReuse()
         imageMessageView.image = nil
-        chatMessageContainer.backgroundColor = UIColor.Background.containerColor2
+        chatMessageContainer.backgroundColor = UIColor.klatPrimaryColor
     }
     
     func configure(channel:TPChannel,
@@ -107,7 +107,7 @@ extension KlatMyChatMessageCell {
         UIImage.loadImage(from: imageUrl) { [weak self] image, _ in
             guard let image = image, let self = self else { return }
             if let currentCell = tableView.cellForRow(at: indexPath) as? Self {
-                chatMessageContainer.backgroundColor = .clear
+                chatMessageContainer.backgroundColor = UIColor.klatClearColor
                 currentCell.imageMessageView.image = image
                 currentCell.imageMessageView.layer.cornerRadius = 8
                 currentCell.imageMessageView.clipsToBounds = true

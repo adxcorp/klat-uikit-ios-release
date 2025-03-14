@@ -34,25 +34,25 @@ class KlatCreateChannelViewController: KlatBaseViewController {
     @IBOutlet weak var channelImage: UIImageView!
     @IBOutlet weak var createChannelButton: UIButton! {
         didSet {
-            createChannelButton.backgroundColor = UIColor.Background.buttonColor
-            createChannelButton.tintColor = UIColor.Button.klatDefaultColor
+            createChannelButton.backgroundColor = UIColor.klatPrimaryColor
+            createChannelButton.tintColor = UIColor.klatWhiteColor
         }
     }
     @IBOutlet weak var channelNameTextField: KlatCustomTextField! {
         didSet {
-            channelNameTextField.backgroundColor = UIColor.Background.textFieldColor
+            channelNameTextField.backgroundColor = UIColor.KlatGrayColors.grayColor3
             channelNameTextField.tag = KlatTextFieldTag.channelNameCount.rawValue
             channelNameTextField.delegate = self
         }
     }
     @IBOutlet weak var channelNameCountLabel: UILabel! {
         didSet {
-            channelNameCountLabel.textColor = .lightGray
+            channelNameCountLabel.textColor = UIColor.KlatGrayColors.grayColor2
         }
     }
     @IBOutlet weak var maxMemberCountTextField: UITextField! {
         didSet {
-            maxMemberCountTextField.backgroundColor = UIColor.Background.textFieldColor
+            maxMemberCountTextField.backgroundColor = UIColor.KlatGrayColors.grayColor3
             maxMemberCountTextField.keyboardType = .numberPad
             maxMemberCountTextField.delegate = self
             maxMemberCountTextField.tag = KlatTextFieldTag.maxMemberCount.rawValue
@@ -99,7 +99,7 @@ class KlatCreateChannelViewController: KlatBaseViewController {
         backButton.addTarget(self, action: #selector(closeButtonClicked), for: .touchUpInside)
         // BarButtonItem
         let barButtonItem = UIBarButtonItem(customView: backButton)
-        barButtonItem.tintColor = .black
+        barButtonItem.tintColor = UIColor.KlatBlackColors.blackColor1
         return barButtonItem
     }()
     

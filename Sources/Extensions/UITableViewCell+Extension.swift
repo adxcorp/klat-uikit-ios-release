@@ -52,9 +52,9 @@ extension UITableViewCell {
         containerView.backgroundColor = .systemGray5
         containerView.layer.cornerRadius = 10
         containerView.layer.masksToBounds = true
-        containerView.backgroundColor = .white
+        containerView.backgroundColor = UIColor.klatWhiteColor
         containerView.layer.borderWidth = 1.5
-        containerView.layer.borderColor = UIColor.Border.klatDefaultColor.cgColor
+        containerView.layer.borderColor = UIColor.KlatGrayColors.grayColor4.cgColor
         containerView.addSubview(stackView)
         // Auto Layout
         stackView.translatesAutoresizingMaskIntoConstraints = false

@@ -22,7 +22,7 @@ class KlatErrorViewController: KlatBaseViewController {
         didSet {
             retryStackView.layer.cornerRadius = 15
             retryStackView.layer.borderWidth = 2
-            retryStackView.layer.borderColor = UIColor.Border.klatDefaultColor.cgColor
+            retryStackView.layer.borderColor = UIColor.KlatGrayColors.grayColor4.cgColor
             retryStackView.layer.masksToBounds = true
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(retryTapped))
             retryStackView.addGestureRecognizer(tapGesture)

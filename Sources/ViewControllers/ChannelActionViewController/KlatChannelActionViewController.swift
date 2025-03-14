@@ -74,7 +74,7 @@ class KlatChannelActionViewController: KlatBaseViewController {
         didSet {
             channelImageView.layer.cornerRadius = channelImageView.frame.width / 2
             channelImageView.layer.borderWidth = 0.1
-            channelImageView.layer.borderColor = UIColor.Background.layerGrayColor1.cgColor
+            channelImageView.layer.borderColor = UIColor.KlatGrayColors.grayColor1.cgColor
         }
     }
     
@@ -149,7 +149,7 @@ class KlatChannelActionViewController: KlatBaseViewController {
         if let navigationBar = navigationController?.navigationBar {
             let appearance = UINavigationBarAppearance()
             appearance.configureWithTransparentBackground()
-            appearance.backgroundColor = .clear
+            appearance.backgroundColor = UIColor.klatClearColor
             appearance.shadowColor = nil
             navigationBar.standardAppearance = appearance
             navigationBar.scrollEdgeAppearance = appearance
@@ -165,7 +165,7 @@ class KlatChannelActionViewController: KlatBaseViewController {
         backButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
         // BarButtonItem
         let barButtonItem = UIBarButtonItem(customView: backButton)
-        barButtonItem.tintColor = .black
+        barButtonItem.tintColor = UIColor.KlatBlackColors.blackColor1
         return barButtonItem
     }()
 }
@@ -211,7 +211,7 @@ extension KlatChannelActionViewController {
         alert.addAction(deleteAction)
         alert.addAction(cancelAction)
         if let deleteButton = alert.actions.first(where: { $0.title == "삭제" }) {
-            deleteButton.setValue(UIColor.red, forKey: "titleTextColor")
+            deleteButton.setValue(UIColor.klatRedColor, forKey: "titleTextColor")
         }
         present(alert, animated: true, completion: nil)
     }
@@ -228,7 +228,7 @@ extension KlatChannelActionViewController {
         alert.addAction(leaveAction)
         alert.addAction(cancelAction)
         if let leaveButton = alert.actions.first(where: { $0.title == "나가기" }) {
-            leaveButton.setValue(UIColor.red, forKey: "titleTextColor")
+            leaveButton.setValue(UIColor.klatRedColor, forKey: "titleTextColor")
         }
         
         present(alert, animated: true, completion: nil)

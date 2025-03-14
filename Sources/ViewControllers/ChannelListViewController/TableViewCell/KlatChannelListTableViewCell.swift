@@ -24,12 +24,12 @@ class KlatChannelListTableViewCell: UITableViewCell {
     }
     
     private func setupColors() {
-        channelNameLabel.textColor = UIColor.Label.klatDefaultColor
-        lastMessageLabel.textColor = UIColor.Label.klatTextGrayColor1
-        memberCountLabel.textColor = UIColor.Label.klatTextGrayColor1
-        timeLabel.textColor = UIColor.Label.klatTextGrayColor1
-        messageCountUnreadLabel.textColor = UIColor.Label.klatTextWhiteColor
-        messageCountUnreadContainer.tintColor = UIColor.UIView.klatDefaultColor
+        channelNameLabel.textColor = UIColor.KlatBlackColors.blackColor1
+        lastMessageLabel.textColor = UIColor.KlatGrayColors.grayColor1
+        memberCountLabel.textColor = UIColor.KlatGrayColors.grayColor1
+        timeLabel.textColor = UIColor.KlatGrayColors.grayColor1
+        messageCountUnreadLabel.textColor = UIColor.klatWhiteColor
+        messageCountUnreadContainer.tintColor = UIColor.klatPrimaryColor
         messageCountUnreadContainer.layer.cornerRadius = 10
     }
 
@@ -45,11 +45,11 @@ class KlatChannelListTableViewCell: UITableViewCell {
         lastMessageLabel.text = chatChannel.getLastMessage()?.getText() ?? ""
         
         messageCountUnreadContainer.isHidden = true
-        messageCountUnreadContainer.backgroundColor = .clear
+        messageCountUnreadContainer.backgroundColor = UIColor.klatClearColor
         messageCountUnreadLabel.text = ""
         if chatChannel.getUnreadCount() > 0 {
             messageCountUnreadContainer.isHidden = false
-            messageCountUnreadContainer.backgroundColor = UIColor.Background.klatDefaultColor
+            messageCountUnreadContainer.backgroundColor = UIColor.klatPrimaryColor
             messageCountUnreadLabel.text = "\(chatChannel.getUnreadCount())"
             if chatChannel.getUnreadCount() > 999 {
                 messageCountUnreadLabel.text = "999+"
@@ -106,7 +106,7 @@ class KlatChannelListTableViewCell: UITableViewCell {
         }
     }
     
-    func changeKeywordColorInChannelName(keyword:String, color:UIColor = UIColor.init(klatHexCode: "#00BFBF")) {
+    func changeKeywordColorInChannelName(keyword:String, color:UIColor = UIColor.klatPrimaryColor) {
         guard let channelName = channelNameLabel.text, keyword.count > 0 else { return }
         channelNameLabel.attributedText = getAttributedString(originalText: channelName, targetText: keyword, color: color)
     }

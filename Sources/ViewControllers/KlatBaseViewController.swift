@@ -76,7 +76,7 @@ open class KlatBaseViewController: UIViewController {
                 return
             }
             activityIndicator.center = view.center
-            activityIndicator.color = UIColor.Background.containerColor2
+            activityIndicator.color = UIColor.klatPrimaryColor
             //activityIndicator.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
             view.addSubview(activityIndicator)
             activityIndicator.startAnimating()
