@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF5E9B3D2D5DDA2300E7AD14 /* spm-talkplus-framework in Frameworks */ = {isa = PBXBuildFile; productRef = DF5E9B3C2D5DDA2300E7AD14 /* spm-talkplus-framework */; };
+		2733BE632D83DC9000DCEFD3 /* spm-talkplus-framework in Frameworks */ = {isa = PBXBuildFile; productRef = 2733BE622D83DC9000DCEFD3 /* spm-talkplus-framework */; };
 		DFB2E5E22CFD73D700CED074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2E5E12CFD73D700CED074 /* AppDelegate.swift */; };
 		DFB2E5E42CFD73D700CED074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2E5E32CFD73D700CED074 /* SceneDelegate.swift */; };
 		DFB2E5E62CFD73D700CED074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2E5E52CFD73D700CED074 /* ViewController.swift */; };
@@ -381,7 +381,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF5E9B3D2D5DDA2300E7AD14 /* spm-talkplus-framework in Frameworks */,
+				2733BE632D83DC9000DCEFD3 /* spm-talkplus-framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,7 +810,7 @@
 			);
 			name = KlatUIKitDemo;
 			packageProductDependencies = (
-				DF5E9B3C2D5DDA2300E7AD14 /* spm-talkplus-framework */,
+				2733BE622D83DC9000DCEFD3 /* spm-talkplus-framework */,
 			);
 			productName = KlatUIKitDemo;
 			productReference = DFB2E5DE2CFD73D700CED074 /* KlatUIKitDemo.app */;
@@ -842,7 +842,7 @@
 			);
 			mainGroup = DFB2E5D52CFD73D700CED074;
 			packageReferences = (
-				DF5E9B3B2D5DDA2300E7AD14 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */,
+				2733BE612D83DC9000DCEFD3 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */,
 			);
 			productRefGroup = DFB2E5DF2CFD73D700CED074 /* Products */;
 			projectDirPath = "";
@@ -1283,20 +1283,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DF5E9B3B2D5DDA2300E7AD14 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */ = {
+		2733BE612D83DC9000DCEFD3 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/adxcorp/talkplus-ios-release";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DF5E9B3C2D5DDA2300E7AD14 /* spm-talkplus-framework */ = {
+		2733BE622D83DC9000DCEFD3 /* spm-talkplus-framework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DF5E9B3B2D5DDA2300E7AD14 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */;
+			package = 2733BE612D83DC9000DCEFD3 /* XCRemoteSwiftPackageReference "talkplus-ios-release" */;
 			productName = "spm-talkplus-framework";
 		};
 /* End XCSwiftPackageProductDependency section */
