@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rfPSWZ89ewMeET4+M7vXNwA7Nj0=
+		g+MdSQxewI3PwpwR/L9iidIVyos=
 		</data>
 		<key>KlatChannelActionViewController.nib</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/KlatUIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uBAZUG/+sdKqxF1LuIJoXlgG1Cg=
+		7gmlL0ws1yZzG8vuTk/8YjH38ZI=
 		</data>
 		<key>Modules/KlatUIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/KlatUIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lVejV2j44OzBMIFtzrSvVVRwKY8=
+		SKdJkZo+EYAb+RyWkXEdvS5eFps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -263,7 +263,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRFIqgIcdgpcOtxFqfsurOBNv3ZldsrCdWfiA68t77o=
+			8EWalVKrEXNs7HufgEEFkNyumx9A65dXKkSjTb9nGPs=
 			</data>
 		</dict>
 		<key>Modules/KlatUIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0QYoMjDv2dGv+D/iCCMEJOb+fRmIgmxLq57oqe1tuBc=
+			TCbdxfiJxX10OIvOBHYk6v0FhhoRiLpyjZjHyVccHoM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

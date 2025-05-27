@@ -66,7 +66,8 @@ import TalkPlus
                 try await viewModel.requestChatChannels()
                 stopActivityIndicator()
             } catch {
-                await MainActor.run {
+                DispatchQueue.main.async { [weak self] in
+                    guard let self = self else { return }
                     stopActivityIndicator()
                     handleKlatApiError(error: error, retryClosure: requestChatChannels)
                 }

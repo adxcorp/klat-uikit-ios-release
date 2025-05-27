@@ -68,7 +68,8 @@ extension KlatMemberInfoViewModel {
             }
             mutedMembers.removeAll()
             mutedMembers.append(contentsOf: memberArray)
-            await MainActor.run {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
                 didMutedMemberUpdated?()
             }
         }
@@ -86,7 +87,8 @@ extension KlatMemberInfoViewModel {
             }
             mutedMembers.removeAll()
             mutedMembers.append(contentsOf: memberArray)
-            await MainActor.run {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
                 didMutedMemberUpdated?()
             }
         }

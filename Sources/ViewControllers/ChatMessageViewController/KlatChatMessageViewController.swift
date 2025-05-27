@@ -409,7 +409,8 @@ extension KlatChatMessageViewController {
                 try await viewModel.getMoreChatMessages(targetChannel: channel)
                 stopActivityIndicator()
             } catch {
-                await MainActor.run {
+                DispatchQueue.main.async { [weak self] in
+                    guard let self = self else { return }
                     stopActivityIndicator()
                     handleKlatApiError(error: error, retryClosure: requestMoreChatMessage)
                 }
@@ -423,7 +424,8 @@ extension KlatChatMessageViewController {
                 try await viewModel.addEmojiToMessage(message: message, emoji: emoji)
                 if viewModel.isMessageAtLast(message: message) {
                     try await Task.sleep(nanoseconds: 200_000_000) // 200ms
-                    await MainActor.run {
+                    DispatchQueue.main.async { [weak self] in
+                        guard let self = self else { return }
                         moveScrollToBottom()
                     }
                 }

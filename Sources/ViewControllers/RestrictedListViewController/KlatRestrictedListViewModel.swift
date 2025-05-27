@@ -47,7 +47,8 @@ class KlatRestrictedListViewModel: KlatBaseViewModel {
                 return
             }
             mutedMembers.append(contentsOf: memberArray)
-            await MainActor.run {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
                 didMutedMemberUpdated?()
             }
         }
@@ -64,7 +65,8 @@ class KlatRestrictedListViewModel: KlatBaseViewModel {
                 return
             }
             mutedMembers.append(contentsOf: memberArray)
-            await MainActor.run {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
                 didMutedMemberUpdated?()
             }
         }

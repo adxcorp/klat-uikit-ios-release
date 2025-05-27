@@ -119,7 +119,8 @@ class SignInViewController: UIViewController {
             let nibName = String(describing: KlatChatMessageViewController.self)
             let klatUIKitVC = KlatChatMessageViewController(nibName: nibName, bundle: bundle)
             klatUIKitVC.chatChannel = channel
-            await MainActor.run {
+            DispatchQueue.main.async { [weak self] in
+                guard let self = self else { return }
                 showViewController(viewController: klatUIKitVC)
             }
         }
