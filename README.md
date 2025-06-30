@@ -13,8 +13,10 @@ Klat UIKit SDK는 Swift 언어로 작성되었으며, 채팅 기능을 iOS 클�
 
 ## Klat UIKit SDK 최소 요구사항
 
-- Xcode 15.3+
+- Xcode 16.0+
+>2025년 4월 24일부터 앱 스토어 커넥트에 업로드하는 앱은 Xcode 16 이상 버전을 사용하여 빌드해야 합니다. 
 - iOS 13.0+
+>iOS 15.0+ 권장
 - Swift 5.5+
 - [Klat Chat SDK for iOS](https://github.com/adxcorp/talkplus-ios-release) 1.0.1+
 
